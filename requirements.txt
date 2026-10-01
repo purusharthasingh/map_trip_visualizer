@@ -1,2 +1,4 @@
-folium
-geopy
+# Exact versions this project was built and tested with (Python 3.14).
+folium==0.20.0   # map rendering (Leaflet)
+geopy==2.5.0     # place-name lookup via OpenStreetMap Nominatim
+pillow==12.3.0   # re-compresses photos before they're embedded in the map

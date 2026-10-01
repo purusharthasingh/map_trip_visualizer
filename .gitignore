@@ -1,0 +1,12 @@
+# Private trip notes (bookings, payment and contact details) stay local; only the cleaned
+# trip JSON and the generated maps are published.
+trip itinerary/
+
+# Python / environment
+__pycache__/
+*.pyc
+.venv/
+
+# PyCharm per-user state
+.idea/workspace.xml
+.idea/shelf/

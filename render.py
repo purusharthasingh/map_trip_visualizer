@@ -1,12 +1,13 @@
 """Draw a routed, day-by-day itinerary on a web base map."""
 
 import base64
+import io
 import json
 import math
-import mimetypes
 from html import escape
 
 import folium
+from PIL import Image
 from folium.plugins import AntPath, PolyLineOffset, PolyLineTextPath
 
 # Categorical palette in fixed order (validated for adjacent-pair colour-blind separation).
@@ -227,12 +228,32 @@ def _place_media(places, item, name, point, wikidata=None, wikipedia=None):
     return _photo_html(photo), links_html
 
 
+PHOTO_EMBED_WIDTH = 450  # px: 1.5x the pop-up width, sharp enough on phones without doubling the file
+PHOTO_WEBP_QUALITY = 60
+
+
+def _compressed_photo(path):
+    """The photo re-encoded small for embedding (the downloaded original is left as it is).
+
+    Embedded photos are most of the map's file size; WebP at this size is roughly a third of the
+    downloaded JPEGs, which matters when the page is opened on mobile data.
+    """
+    with Image.open(path) as image:
+        image = image.convert("RGB")
+        if image.width > PHOTO_EMBED_WIDTH:
+            image = image.resize(
+                (PHOTO_EMBED_WIDTH, round(image.height * PHOTO_EMBED_WIDTH / image.width)), Image.LANCZOS
+            )
+        out = io.BytesIO()
+        image.save(out, "WEBP", quality=PHOTO_WEBP_QUALITY, method=6)
+        return out.getvalue()
+
+
 def _photo_html(record):
     """Photo plus credit line, embedded in the page so the map stays a single file."""
     if not record:
         return ""
-    mime = mimetypes.guess_type(record["path"].name)[0] or "image/jpeg"
-    data = base64.b64encode(record["path"].read_bytes()).decode()
+    mime, data = "image/webp", base64.b64encode(_compressed_photo(record["path"])).decode()
     height = POPUP_PHOTO_MAX_HEIGHT
     if record.get("width") and record.get("height"):
         height = min(round(POPUP_PHOTO_WIDTH * record["height"] / record["width"]), POPUP_PHOTO_MAX_HEIGHT)
