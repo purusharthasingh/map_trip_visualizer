@@ -5,6 +5,7 @@ browser or share as a link.
 
 **Live maps** (once GitHub Pages is enabled for this repository):
 - [Iceland — Golden Circle, South Coast & Snæfellsnes](https://purusharthasingh.github.io/map_trip_visualizer/trip%20maps/iceland_map.html)
+- [Mexico City & Bogotá](https://purusharthasingh.github.io/map_trip_visualizer/trip%20maps/mexcol_map.html)
 - [Sample — London to Rome](https://purusharthasingh.github.io/map_trip_visualizer/trip%20maps/sample_map.html)
 
 ## What the map shows

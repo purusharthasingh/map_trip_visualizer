@@ -1,0 +1,539 @@
+{
+  "name": "Mexico City & Bogotá — Teotihuacán, Centro Histórico, Xochimilco & the Andes",
+  "days": [
+    {
+      "date": "2026-08-16",
+      "title": "Arrive in Mexico City",
+      "stops": [
+        {
+          "name": "Dallas/Fort Worth Airport",
+          "lat": 32.8998,
+          "lon": -97.0403,
+          "notes": "Arrived 3 hrs before the evening flight. Dinner in the airport lounge."
+        },
+        {
+          "name": "Mexico City International Airport",
+          "lat": 19.4363,
+          "lon": -99.0721,
+          "transport": "flight",
+          "notes": "Terminal 1, landed 10:45 PM. Withdrew pesos at an ATM in the arrivals hall."
+        },
+        {
+          "name": "Parral 14 Boutique Hotel",
+          "lat": 19.4135125,
+          "lon": -99.1735076,
+          "transport": "car",
+          "overnight": true,
+          "notes": "Condesa. Uber from the airport, checked in late. 5-night stay."
+        }
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Teotihuacán",
+      "stops": [
+        {
+          "name": "Teotihuacán",
+          "lat": 19.6925,
+          "lon": -98.8438,
+          "transport": "car",
+          "highlight": true,
+          "notes": "Pyramids tour (Viator / Experiencias Mexicanas) with tequila tasting. Pickup at Churrería El Moro."
+        },
+        {
+          "name": "La Gruta Restaurant",
+          "lat": 19.6889,
+          "lon": -98.8431,
+          "transport": "car",
+          "notes": "Cave restaurant, lunch on the tour. Chicken with mole and chiles en nogada."
+        },
+        {
+          "name": "Parral 14 Boutique Hotel",
+          "lat": 19.4135125,
+          "lon": -99.1735076,
+          "transport": "car",
+          "overnight": true,
+          "notes": "Evening walk around Condesa before calling it a night."
+        }
+      ],
+      "extras": [
+        {
+          "name": "Azul Condesa",
+          "lat": 19.4115,
+          "lon": -99.1721,
+          "type": "planned",
+          "notes": "Dinner: chapulines, D'Amaro liquor with guacamole, artisanal tortillas, salsa roja."
+        }
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Centro Histórico",
+      "stops": [
+        {
+          "name": "Zócalo",
+          "lat": 19.432642,
+          "lon": -99.1333215,
+          "transport": "metro",
+          "highlight": true,
+          "notes": "Took the Metro into the centre and back, just to try it. Self-guided day."
+        },
+        {
+          "name": "Metropolitan Cathedral",
+          "lat": 19.4343942,
+          "lon": -99.1330824,
+          "transport": "walking"
+        },
+        {
+          "name": "Templo Mayor Museum",
+          "lat": 19.4346038,
+          "lon": -99.131881,
+          "transport": "walking"
+        },
+        {
+          "name": "National Palace",
+          "lat": 19.4328868,
+          "lon": -99.1313531,
+          "transport": "walking",
+          "notes": "Diego Rivera murals."
+        },
+        {
+          "name": "Casa de los Azulejos",
+          "lat": 19.4342214,
+          "lon": -99.1401815,
+          "transport": "walking"
+        },
+        {
+          "name": "Torre Latinoamericana",
+          "lat": 19.4338983,
+          "lon": -99.1407359,
+          "transport": "walking",
+          "highlight": true
+        },
+        {
+          "name": "Palacio de Bellas Artes",
+          "lat": 19.4352,
+          "lon": -99.1412,
+          "transport": "walking"
+        },
+        {
+          "name": "Mercado de San Juan",
+          "lat": 19.4299708,
+          "lon": -99.1446309,
+          "transport": "walking",
+          "notes": "Lunch at a street-side stall: huarache with chorizo and cecina, agua de rompope."
+        },
+        {
+          "name": "La Ciudadela Market",
+          "lat": 19.4308122,
+          "lon": -99.1493693,
+          "transport": "walking"
+        },
+        {
+          "name": "Parral 14 Boutique Hotel",
+          "lat": 19.4135125,
+          "lon": -99.1735076,
+          "transport": "metro",
+          "overnight": true,
+          "notes": "Self-guided worked, but a guide for the museums would have added depth."
+        }
+      ],
+      "extras": [
+        {
+          "name": "Barrio Chino (Chinatown)",
+          "lat": 19.4337,
+          "lon": -99.1406,
+          "type": "planned",
+          "notes": "Found en route, unplanned, along with a couple of free museums."
+        },
+        {
+          "name": "La Isla Bonita",
+          "lat": 19.411,
+          "lon": -99.173,
+          "type": "planned",
+          "notes": "Seafood dinner close to the hotel. Squid in ink sauce, fancy piña colada, whole fish in garlic oil."
+        }
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Xochimilco, Coyoacán & Frida Kahlo",
+      "stops": [
+        {
+          "name": "Coyoacán (Jardín Centenario / Plaza Hidalgo)",
+          "lat": 19.3467,
+          "lon": -99.1618,
+          "transport": "car",
+          "highlight": true,
+          "notes": "Day tour with Amigo Tours."
+        },
+        {
+          "name": "UNAM murals (Ciudad Universitaria)",
+          "lat": 19.3326,
+          "lon": -99.1868,
+          "transport": "car",
+          "notes": "Diego Rivera / Juan O'Gorman murals, UNESCO site."
+        },
+        {
+          "name": "Xochimilco",
+          "lat": 19.2825,
+          "lon": -99.1053,
+          "transport": "car",
+          "highlight": true,
+          "notes": "Trajinera canal ride."
+        },
+        {
+          "name": "Casa Azul (Museo Frida Kahlo)",
+          "lat": 19.3551,
+          "lon": -99.1624,
+          "transport": "car",
+          "highlight": true,
+          "notes": "No live guide inside — used the tour's digital PDF guide instead."
+        },
+        {
+          "name": "Parral 14 Boutique Hotel",
+          "lat": 19.4135125,
+          "lon": -99.1735076,
+          "transport": "car",
+          "overnight": true,
+          "notes": "Tour ran later than expected — back ~6:30 PM."
+        }
+      ],
+      "extras": [
+        {
+          "name": "Restaurant next to Casa Azul",
+          "lat": 19.3553,
+          "lon": -99.1622,
+          "type": "planned",
+          "notes": "Lunch — better choice than the tour's buffet add-on. Octopus tacos, agua de horchata."
+        },
+        {
+          "name": "La Isla Bonita",
+          "lat": 19.411,
+          "lon": -99.173,
+          "type": "planned",
+          "notes": "Dinner, second visit. Mango mezcalita, spicy shrimp, squid in ink sauce."
+        }
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Chapultepec Castle & Food Tour",
+      "stops": [
+        {
+          "name": "Bosque de Chapultepec & Chapultepec Castle",
+          "lat": 19.4204,
+          "lon": -99.1817,
+          "transport": "bike",
+          "highlight": true,
+          "notes": "Castle, park and museum done via Ecobici by 11 AM — left ~8:15 AM."
+        },
+        {
+          "name": "Colonia Roma Food Tour meeting point (KAAJ)",
+          "lat": 19.4177,
+          "lon": -99.1626,
+          "transport": "walking",
+          "highlight": true,
+          "notes": "Sabores Mexico, 12–4 PM. Fish tacos, Oaxacan cuisine, mezcal, specialty coffee, cocktails. Worth it for the curation and the guide's insight into Roma Norte."
+        },
+        {
+          "name": "Parral 14 Boutique Hotel",
+          "lat": 19.4135125,
+          "lon": -99.1735076,
+          "transport": "car",
+          "overnight": true
+        }
+      ],
+      "extras": [
+        {
+          "name": "W Repostería",
+          "lat": 19.414,
+          "lon": -99.172,
+          "type": "planned",
+          "notes": "Tres leches cake (the food tour guide's tip) — too full for a real dinner. Then an hour-long mezcal tasting on production and varieties: a great close to the Mexico City leg."
+        }
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Fly to Bogotá, Gold Museum",
+      "stops": [
+        {
+          "name": "Mexico City International Airport",
+          "lat": 19.4363,
+          "lon": -99.0721,
+          "transport": "car",
+          "notes": "Terminal 2. Early Uber for the 8:50 AM flight to Bogotá."
+        },
+        {
+          "name": "El Dorado Airport, Bogotá",
+          "lat": 4.7016,
+          "lon": -74.1469,
+          "transport": "flight",
+          "notes": "Landed 2:40 PM. Rough Friday-evening traffic on the transfer in."
+        },
+        {
+          "name": "Bogotá 100 Design Hotel by Sarasti",
+          "lat": 4.6847205,
+          "lon": -74.0469048,
+          "url": "https://www.bogota100.com/EN/home.html",
+          "transport": "car",
+          "notes": "Calle 100 area. 3-night stay."
+        },
+        {
+          "name": "Museo del Oro (Gold Museum)",
+          "lat": 4.6019128,
+          "lon": -74.0720411,
+          "transport": "car",
+          "highlight": true,
+          "notes": "Made it in the evening despite the traffic."
+        },
+        {
+          "name": "Bogotá 100 Design Hotel by Sarasti",
+          "lat": 4.6847205,
+          "lon": -74.0469048,
+          "transport": "car",
+          "overnight": true
+        }
+      ],
+      "extras": [
+        {
+          "name": "Bakery near Museo del Oro",
+          "lat": 4.6015,
+          "lon": -74.0715,
+          "type": "planned",
+          "notes": "Informal dinner given the traffic-heavy day."
+        }
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Guatavita & Zipaquirá",
+      "stops": [
+        {
+          "name": "Guatavita town",
+          "lat": 4.9589,
+          "lon": -73.8294,
+          "transport": "car",
+          "highlight": true,
+          "notes": "\"Zipaquirá & Guatavita Lake: Top 5 Sights\" tour (GetYourGuide / Bogota Travel Experience), rebooked the night before after the original shared tour was cancelled. Pickup ~8:50 AM; beautiful drive. First stop, ~20 min — handmade souvenir shops."
+        },
+        {
+          "name": "Laguna de Guatavita",
+          "lat": 4.9776,
+          "lon": -73.775,
+          "transport": "car",
+          "highlight": true,
+          "notes": "Hike up in some rain, hummingbirds along the way. Queso arepa shared with the docile dogs at the stops. Good coffee."
+        },
+        {
+          "name": "Restaurant in Guatavita town",
+          "lat": 4.9589,
+          "lon": -73.8294,
+          "transport": "car",
+          "notes": "Lunch — expensive, decent food."
+        },
+        {
+          "name": "Zipaquirá Salt Cathedral",
+          "lat": 5.0187,
+          "lon": -74.0099,
+          "transport": "car",
+          "highlight": true,
+          "notes": "A highlight of the day."
+        },
+        {
+          "name": "Bogotá 100 Design Hotel by Sarasti",
+          "lat": 4.6847205,
+          "lon": -74.0469048,
+          "transport": "car",
+          "overnight": true,
+          "notes": "Back by 8:30 PM. Dinner: Ukiyo takeout."
+        }
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Ciclovía, Usaquén & Massage",
+      "stops": [
+        {
+          "name": "Bogota Bike Tours (Bicycle City Tour)",
+          "lat": 4.5985,
+          "lon": -74.0705,
+          "transport": "car",
+          "highlight": true,
+          "notes": "10:30 AM–3 PM by bike: Paloquemao Market (cut in planning, seen anyway), a coffee tasting (bought beans), riding the Ciclovía itself, and stumbling onto the Bogotá Day parades."
+        },
+        {
+          "name": "Fulanitos 95",
+          "lat": 4.679385,
+          "lon": -74.046158,
+          "transport": "car",
+          "notes": "Chapinero location (the La Candelaria one had permanently closed). Very heavy lunch — a meat/sausage dish rather than the fish expected."
+        },
+        {
+          "name": "Usaquén Market (Mercado de las Pulgas)",
+          "lat": 4.695047,
+          "lon": -74.0309429,
+          "transport": "car",
+          "highlight": true,
+          "notes": "~1.5 hrs. Stalls were shutting down by 6 PM despite Google Maps showing a 7 PM close."
+        },
+        {
+          "name": "Bogotá 100 Design Hotel by Sarasti",
+          "lat": 4.6847205,
+          "lon": -74.0469048,
+          "transport": "walking",
+          "notes": "Walked back to the hotel, then out again to the spa."
+        },
+        {
+          "name": "Spa des Elements",
+          "lat": 4.6766,
+          "lon": -74.0483,
+          "transport": "walking",
+          "highlight": true,
+          "notes": "1-hour massage, 112,000 COP, wrapped up ~8:30 PM."
+        },
+        {
+          "name": "Bogotá 100 Design Hotel by Sarasti",
+          "lat": 4.6847205,
+          "lon": -74.0469048,
+          "transport": "walking",
+          "overnight": true,
+          "notes": "Light dinner: a dulce de leche dessert, given how heavy lunch had been."
+        }
+      ],
+      "extras": [
+        {
+          "name": "Paloquemao Market",
+          "lat": 4.6157,
+          "lon": -74.0841,
+          "type": "planned",
+          "notes": "Fruit and flower market, covered on the bike tour."
+        },
+        {
+          "name": "Andrés DC",
+          "lat": 4.668,
+          "lon": -74.0537,
+          "type": "optional",
+          "notes": "Booked, then cancelled — beef-heavy and drifts into a late bar/nightlife scene, neither a fit."
+        }
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "title": "La Candelaria & Departure",
+      "stops": [
+        {
+          "name": "Chorro de Quevedo (Walking Tour)",
+          "lat": 4.597227,
+          "lon": -74.0710141,
+          "transport": "car",
+          "highlight": true,
+          "notes": "Gran Colombia Tours, 10 AM–1 PM. Swapped from the Graffiti Tour for a proper guided historical walk."
+        },
+        {
+          "name": "Seafood lunch, La Candelaria",
+          "lat": 4.5967,
+          "lon": -74.0735,
+          "transport": "walking"
+        },
+        {
+          "name": "Monserrate",
+          "lat": 4.6039524,
+          "lon": -74.0553671,
+          "transport": "walking",
+          "highlight": true,
+          "notes": "Walked over from lunch, arrived ~2:30 PM. The funicular was down (cable car only), so took the Fast Pass — saved 30 min–1 hr of queueing. Bird trail open with no booking needed; spotted hummingbirds. Stayed a couple of hours."
+        },
+        {
+          "name": "Museo Botero",
+          "lat": 4.596698,
+          "lon": -74.0733503,
+          "transport": "walking",
+          "highlight": true,
+          "notes": "Open Mondays, recommended by the walking tour guide. Enjoyed Botero's style. There until 6:15 PM."
+        },
+        {
+          "name": "El Dorado Airport, Bogotá",
+          "lat": 4.7016,
+          "lon": -74.1469,
+          "transport": "car",
+          "notes": "Long lines; check-in took a while (passport needed in-person verification). Waited out the 11:55 PM flight in the El Dorado Lounge."
+        },
+        {
+          "name": "Boston Logan Airport",
+          "lat": 42.3656,
+          "lon": -71.0096,
+          "transport": "flight",
+          "notes": "Arrived 7:10 AM on Aug 25. Trip complete."
+        }
+      ],
+      "extras": [
+        {
+          "name": "Bounce luggage storage (Delgadillo Hotel by Socialtel)",
+          "lat": 4.5962,
+          "lon": -74.0718,
+          "type": "planned",
+          "notes": "Dropped the bag at 9:30 AM, picked it up ~6:15 PM — serendipitously right next to Museo Botero."
+        },
+        {
+          "name": "Plaza Bolívar",
+          "lat": 4.5981898,
+          "lon": -74.076053,
+          "type": "planned"
+        },
+        {
+          "name": "Contraste Coffee Lab / Varietale",
+          "lat": 4.597,
+          "lon": -74.073,
+          "type": "optional",
+          "notes": "Coffee option in La Candelaria before heading to the airport."
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "name": "Puebla day trip",
+      "lat": 19.0414,
+      "lon": -98.2063,
+      "type": "idea",
+      "notes": "Colonial city, Talavera pottery, birthplace of chiles en nogada — cut for pacing."
+    },
+    {
+      "name": "Lucha Libre",
+      "lat": 19.4387,
+      "lon": -99.1477,
+      "type": "idea",
+      "notes": "Evening wrestling event — cut for pacing."
+    },
+    {
+      "name": "Museo Anahuacalli",
+      "lat": 19.3281,
+      "lon": -99.1402,
+      "type": "idea",
+      "notes": "Diego Rivera's pyramid-shaped museum, pre-Hispanic art collection."
+    },
+    {
+      "name": "Museo León Trotsky",
+      "lat": 19.355,
+      "lon": -99.1587,
+      "type": "idea",
+      "notes": "Political-history alternative angle on Coyoacán."
+    },
+    {
+      "name": "Jardín Botánico de Bogotá",
+      "lat": 4.6684,
+      "lon": -74.0974,
+      "type": "idea",
+      "notes": "Calmer alternative to Usaquén's Sunday crowds."
+    },
+    {
+      "name": "Parque Simón Bolívar",
+      "lat": 4.6584,
+      "lon": -74.0925,
+      "type": "idea",
+      "notes": "Large park, low-key local Sunday option."
+    }
+  ]
+}
