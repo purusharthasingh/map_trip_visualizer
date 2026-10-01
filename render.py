@@ -48,8 +48,8 @@ LABEL_MIN_ZOOM = 7
 # Routes are drawn this many pixels to the right of their direction of travel (like traffic keeping
 # right), so a road driven out and back shows as two side-by-side lines, one per direction.
 ROUTE_OFFSET_PX = 3
-# Zooming out is capped where the scale bar reads this many km. Further out, the fixed-pixel route
-# offset grows past the gap between road and coast, and coastal routes appear to run through the sea.
+# Zoomed out beyond the point where the scale bar reads this many km, the fixed-pixel route offset grows
+# past the gap between road and coast, so routes are drawn centred on the road from there out.
 MAX_SCALE_BAR_KM = 20
 # Direction arrows turn into clutter when zoomed out, where the keep-right offset already shows direction.
 ARROW_MIN_ZOOM = 8
@@ -590,11 +590,13 @@ def build_map(trip, router, animate=False, poi_finder=None, basemap="streets", p
         rows.append(_extras_list(extras, f"{len(extras)} ideas, not scheduled"))
     if poi_finder:
         poi_group.add_to(m)
-    # The scale bar reads largest nearest the equator, so the trip's lowest latitude sets the cap.
-    m.options["minZoom"] = _min_zoom_for_scale(min(abs(p[0]) for p in all_points))
+    # Below the zoom where the scale bar reads MAX_SCALE_BAR_KM, the side-by-side route offset would push
+    # coastal routes into the sea, so routes are drawn centred instead (see updateOffsets in the page).
+    # The scale bar reads largest nearest the equator, so the trip's lowest latitude sets that zoom.
+    offset_min_zoom = _min_zoom_for_scale(min(abs(p[0]) for p in all_points))
     m.fit_bounds(_bounds(all_points), padding=(30, 30))
     folium.LayerControl(collapsed=True).add_to(m)
-    _add_itinerary_panel(m, trip, days, rows, total_km, _bounds(all_points), kinds)
+    _add_itinerary_panel(m, trip, days, rows, total_km, _bounds(all_points), kinds, offset_min_zoom)
     return m
 
 
@@ -618,7 +620,7 @@ def _toggle_css():
     return "\n  ".join(rules + [".hide-banners .key-label {display:none !important}"])
 
 
-def _add_itinerary_panel(m, trip, days, rows, total_km, trip_bounds, kinds):
+def _add_itinerary_panel(m, trip, days, rows, total_km, trip_bounds, kinds, offset_min_zoom):
     dates = [d["date"] for d in days if d.get("date")]
     date_range = f"{escape(dates[0])} → {escape(dates[-1])} · " if dates else ""
     panel = f"""
@@ -630,12 +632,27 @@ def _add_itinerary_panel(m, trip, days, rows, total_km, trip_bounds, kinds):
   .leaflet-control-layers {{font-size:14px;line-height:1.6}}
   .leaflet-control-attribution, .leaflet-control-scale-line {{font-size:11px}}
   .hide-key-labels .key-label {{display:none}}
-  .hide-arrows .route-arrow {{display:none}}
-  #itinerary {{position:absolute;left:10px;bottom:48px;z-index:1000;width:330px;max-height:70vh;overflow:auto;
-    background:#fff;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.3);font:15px/1.45 system-ui,sans-serif;
-    color:#1f1f1f;padding:14px 16px}}
-  #itinerary h2 {{margin:0 0 4px;font-size:20px}}
-  #itinerary .sub {{color:#5f5f5a;margin-bottom:8px}}
+  /* Arrows are hidden with visibility, not display: the arrow add-on measures the arrow glyph when it
+     redraws a line, and a display:none glyph measures 0, which makes it crash (dividing by zero). */
+  .hide-arrows .route-arrow {{visibility:hidden}}
+  text.route-arrow.day-off {{display:inline !important;visibility:hidden}}
+  #itinerary {{position:absolute;left:10px;bottom:48px;z-index:1000;width:330px;max-height:70vh;display:flex;
+    flex-direction:column;background:#fff;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.3);
+    font:15px/1.45 system-ui,sans-serif;color:#1f1f1f}}
+  #itinerary .panel-head {{position:relative;display:flex;align-items:flex-start;gap:8px;padding:14px 14px 8px 16px;
+    cursor:pointer;flex:none}}
+  #itinerary .panel-title {{flex:1;min-width:0}}
+  #itinerary .panel-toggle {{flex:none;width:30px;height:30px;border-radius:50%;background:#f1f0ea;display:flex;
+    align-items:center;justify-content:center}}
+  #itinerary .panel-toggle::before {{content:"";width:8px;height:8px;border:solid #1f1f1f;border-width:0 2px 2px 0;
+    transform:translateY(-2px) rotate(45deg)}}
+  #itinerary.collapsed .panel-toggle::before {{transform:translateY(2px) rotate(-135deg)}}
+  #itinerary .panel-head:focus-visible {{outline:3px solid #2a78d6;outline-offset:-3px;border-radius:12px}}
+  #itinerary .panel-body {{overflow:auto;padding:0 16px 14px;min-height:0}}
+  #itinerary.collapsed .panel-body {{display:none}}
+  #itinerary.collapsed .panel-head {{padding-bottom:12px}}
+  #itinerary h2 {{margin:0 0 2px;font-size:20px}}
+  #itinerary .sub {{color:#5f5f5a}}
   #itinerary .day-row {{display:grid;grid-template-columns:22px 1fr;column-gap:6px;padding:7px 9px 7px 6px;
     border-radius:6px;cursor:pointer}}
   #itinerary .day-toggle {{padding-top:3px;cursor:pointer}}
@@ -673,11 +690,33 @@ def _add_itinerary_panel(m, trip, days, rows, total_km, trip_bounds, kinds):
   #itinerary .toggles i {{display:inline-block;width:18px;height:18px;box-sizing:border-box;flex:none;
     text-align:center;line-height:14px;font-style:normal}}
   {_toggle_css()}
-  @media (max-width:600px) {{ #itinerary {{width:auto;right:10px;max-height:35vh}} }}
+  /* Phones: the panel becomes a bottom sheet, collapsed to its header until tapped. */
+  @media (max-width:600px) {{
+    .leaflet-control-attribution {{font-size:9px;line-height:1.25}}
+    #itinerary {{z-index:1001;left:0;right:0;bottom:0;width:auto;max-height:75vh;border-radius:16px 16px 0 0;
+      box-shadow:0 -2px 12px rgba(0,0,0,.25);padding-bottom:env(safe-area-inset-bottom,0px)}}
+    #itinerary .panel-head {{padding:18px 14px 10px 16px}}
+    #itinerary .panel-head::before {{content:"";position:absolute;top:7px;left:50%;width:40px;height:4px;
+      margin-left:-20px;border-radius:2px;background:#c9c8c0}}
+    #itinerary h2 {{font-size:17px}}
+    #itinerary .sub {{font-size:13px}}
+    #itinerary .toggles input, #itinerary .day-toggle input, #itinerary .days-head input {{width:20px;height:20px}}
+    #itinerary .day-row {{grid-template-columns:26px 1fr}}
+    #itinerary .toggles label {{padding:4px 0}}
+    .leaflet-bottom {{bottom:calc(76px + env(safe-area-inset-bottom,0px))}}
+    .leaflet-popup-content {{max-width:calc(100vw - 80px) !important}}
+    .leaflet-popup-content img {{max-width:100%;height:auto}}
+    .key-label {{font-size:13px}}
+  }}
 </style>
 <div id="itinerary">
-  <h2>{escape(trip.get("name", "My Trip"))}</h2>
-  <div class="sub">{date_range}{len(days)} days · {total_km:,.0f} km</div>
+  <div class="panel-head" role="button" tabindex="0" aria-expanded="true" aria-controls="panel-body"
+       title="Show or hide the itinerary">
+    <div class="panel-title"><h2>{escape(trip.get("name", "My Trip"))}</h2>
+      <div class="sub">{date_range}{len(days)} days · {total_km:,.0f} km</div></div>
+    <span class="panel-toggle" aria-hidden="true"></span>
+  </div>
+  <div class="panel-body" id="panel-body">
   {_toggles_html(kinds)}
   <button type="button" class="all" data-bounds='{json.dumps(trip_bounds)}'>⤢&nbsp; Show whole trip</button>
   <div class="days-head"><span>Days</span>
@@ -685,7 +724,8 @@ def _add_itinerary_panel(m, trip, days, rows, total_km, trip_bounds, kinds):
   {"".join(rows)}
   <div class="key">─── road / rail &nbsp; ‑ ‑ flight &nbsp; ··· approximate route<br>
     Routes keep right of their direction of travel, so a road driven both ways shows two
-    side-by-side lines.</div>
+    side-by-side lines (when zoomed in).</div>
+  </div>
 </div>"""
     # Folium emits this before the map is created, so defer until the page has loaded.
     script = f"""
@@ -858,13 +898,49 @@ document.addEventListener('DOMContentLoaded', function () {{
   map.eachLayer(watchTiles);
   map.on('layeradd', function (e) {{ watchTiles(e.layer); }});
   setTimeout(declutter, 0);
-  // Keep zoomed areas clear of the itinerary panel on wide screens.
-  function fitOptions() {{
-    var panel = document.getElementById('itinerary');
-    return window.innerWidth > 600
-      ? {{paddingTopLeft: [panel.offsetWidth + 30, 30], paddingBottomRight: [30, 30]}}
-      : {{padding: [30, 30]}};
+  // The panel collapses to its header: tap the header (or press Enter) to toggle. On phones it starts
+  // collapsed and collapses again after choosing a day or place, so the map gets the screen.
+  var panel = document.getElementById('itinerary'), panelHead = panel.querySelector('.panel-head');
+  function isPhone() {{ return window.innerWidth <= 600; }}
+  function setCollapsed(collapsed) {{
+    panel.classList.toggle('collapsed', collapsed);
+    panelHead.setAttribute('aria-expanded', String(!collapsed));
   }}
+  setCollapsed(isPhone());
+  panelHead.addEventListener('click', function () {{ setCollapsed(!panel.classList.contains('collapsed')); }});
+  panelHead.addEventListener('keydown', function (e) {{
+    if (e.key === 'Enter' || e.key === ' ') {{ e.preventDefault(); panelHead.click(); }}
+  }});
+  // Keep zoomed areas clear of the panel: beside it on wide screens, above it on phones.
+  function fitOptions() {{
+    if (isPhone()) return {{paddingTopLeft: [20, 20], paddingBottomRight: [20, panel.offsetHeight + 20]}};
+    if (panel.classList.contains('collapsed'))
+      return {{paddingTopLeft: [30, 30], paddingBottomRight: [30, panel.offsetHeight + 60]}};
+    return {{paddingTopLeft: [panel.offsetWidth + 30, 30], paddingBottomRight: [30, 30]}};
+  }}
+  // You can zoom out until the whole trip fits this screen. Past the 20 km scale, routes are drawn
+  // centred on the road: the side-by-side offset would be wider than the gap between road and coast.
+  var OFFSET_MIN_ZOOM = {offset_min_zoom};
+  var tripBounds = L.latLngBounds({json.dumps(trip_bounds)});
+  function updateMinZoom() {{
+    var o = fitOptions();
+    var fit = map.getBoundsZoom(tripBounds, false, L.point(o.paddingTopLeft).add(o.paddingBottomRight));
+    map.setMinZoom(Math.min(OFFSET_MIN_ZOOM, Math.floor(fit)));
+  }}
+  map.eachLayer(function (layer) {{
+    if (layer instanceof L.Polyline && typeof layer.options.offset === 'number') layer._routeOffset = layer.options.offset;
+  }});
+  function updateOffsets() {{
+    var centred = map.getZoom() < OFFSET_MIN_ZOOM;
+    map.eachLayer(function (layer) {{
+      if (layer._routeOffset === undefined) return;  // route lines only (banners use _baseOffset)
+      var want = centred ? 0 : layer._routeOffset;
+      if (layer.options.offset !== want) {{ layer.options.offset = want; layer.redraw(); }}  // the plugin reads it on redraw
+    }});
+  }}
+  map.on('zoomend', updateOffsets);
+  window.addEventListener('resize', updateMinZoom);
+  updateMinZoom();
   // Selecting a day brings it to the front and fades the others, since days often share roads.
   var focusStyle = document.createElement('style');
   document.head.appendChild(focusStyle);
@@ -873,7 +949,9 @@ document.addEventListener('DOMContentLoaded', function () {{
     focusedDay = day || null;
     focusStyle.textContent = day ? '.trip-el:not(.day-' + day + ') {{ opacity: .15 !important; }}' : '';
     if (day) window[row.dataset.group].eachLayer(function (layer) {{
-      if (layer.bringToFront) layer.bringToFront();
+      // The arrow add-on can throw while re-attaching to a line that was just redrawn; a line left
+      // behind another day's is cosmetic, so it must not stop the rest of the click from running.
+      try {{ if (layer.bringToFront) layer.bringToFront(); }} catch (e) {{}}
     }});
   }}
   document.querySelectorAll('#itinerary [data-bounds]').forEach(function (row) {{
@@ -882,12 +960,14 @@ document.addEventListener('DOMContentLoaded', function () {{
       if (box && !box.checked) {{ box.checked = true; box.dispatchEvent(new Event('change')); }}  // focusing shows it
       document.querySelectorAll('#itinerary .active').forEach(function (r) {{ r.classList.remove('active'); }});
       row.classList.add('active');
-      focusDay(row);
+      if (isPhone()) setCollapsed(true);  // show the map, not the list
       map.fitBounds(JSON.parse(row.dataset.bounds), fitOptions());
+      focusDay(row);
       setTimeout(declutter, 0);  // covers the case where the zoom level doesn't change
     }});
   }});
-  map.fitBounds({json.dumps(trip_bounds)}, fitOptions());
+  map.fitBounds(tripBounds, fitOptions());
+  updateOffsets();
   // Marker-type switches. Choices are remembered per trip in this browser (when storage is available).
   var storageKey = 'tripMapToggles:' + {json.dumps(trip.get("name", ""))};
   var saved = {{}};
@@ -925,6 +1005,7 @@ document.addEventListener('DOMContentLoaded', function () {{
   document.querySelectorAll('#itinerary [data-point]').forEach(function (item) {{
     item.addEventListener('click', function (e) {{
       e.stopPropagation();  // a highlight inside a day row shouldn't also trigger the row's zoom
+      if (isPhone()) setCollapsed(true);
       map.setView(JSON.parse(item.dataset.point), 12);
     }});
   }});
