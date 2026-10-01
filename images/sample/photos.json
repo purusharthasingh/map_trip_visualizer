@@ -1,0 +1,421 @@
+{
+  "British Museum|51.5194,-0.1270": {
+    "matched": "British Museum",
+    "wikidata": "Q6373",
+    "wikipedia": "https://en.wikipedia.org/wiki/British_Museum",
+    "website": "https://www.britishmuseum.org/",
+    "photo": {
+      "file": "british-museum.jpg",
+      "matched": "British Museum",
+      "commons_file": "British Museum from NE 2 (cropped).JPG",
+      "width": 500,
+      "height": 311,
+      "author": "Ham",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:British_Museum_from_NE_2_(cropped).JPG"
+    }
+  },
+  "Tower of London|51.5081,-0.0759": {
+    "matched": "Tower of London",
+    "wikidata": "Q62378",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tower_of_London",
+    "website": "http://www.hrp.org.uk/tower-of-london/",
+    "photo": {
+      "file": "tower-of-london.jpg",
+      "matched": "Tower of London",
+      "commons_file": "Tower of London viewed from the River Thames.jpg",
+      "width": 500,
+      "height": 314,
+      "author": "Bob Collowan",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tower_of_London_viewed_from_the_River_Thames.jpg"
+    }
+  },
+  "Hotel, King's Cross|51.5308,-0.1238": null,
+  "Paris Gare du Nord|48.8809,2.3553": {
+    "matched": "Gare du Nord, Paris 6 April 2014 003.jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "paris-gare-du-nord.jpg",
+      "matched": "Gare du Nord, Paris 6 April 2014 003.jpg",
+      "commons_file": "Gare du Nord, Paris 6 April 2014 003.jpg",
+      "width": 500,
+      "height": 333,
+      "author": "Chris Sampson",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gare_du_Nord,_Paris_6_April_2014_003.jpg"
+    }
+  },
+  "Eiffel Tower|48.8584,2.2945": {
+    "matched": "Eiffel Tower",
+    "wikidata": "Q243",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "website": "https://www.toureiffel.paris",
+    "photo": {
+      "file": "eiffel-tower.jpg",
+      "matched": "Eiffel Tower",
+      "commons_file": "Tour Eiffel Wikimedia Commons.jpg",
+      "width": 500,
+      "height": 925,
+      "author": "Benh LIEU SONG",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg"
+    }
+  },
+  "Hotel, Le Marais|48.8570,2.3620": null,
+  "Lyon Part-Dieu|45.7606,4.8594": {
+    "matched": "Gare de Lyon-Part-Dieu, résultats enquête satisfaction.jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "lyon-part-dieu.jpg",
+      "matched": "Gare de Lyon-Part-Dieu, résultats enquête satisfaction.jpg",
+      "commons_file": "Gare de Lyon-Part-Dieu, résultats enquête satisfaction.jpg",
+      "width": 500,
+      "height": 889,
+      "author": "TCY",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gare_de_Lyon-Part-Dieu,_r%C3%A9sultats_enqu%C3%AAte_satisfaction.jpg"
+    }
+  },
+  "Basilique de Fourvière|45.7622,4.8226": {
+    "matched": "003. Photo prise depuis les toits de la Basilique Notre-Dame de Fourvière.JPG",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "basilique-de-fourviere.jpg",
+      "matched": "003. Photo prise depuis les toits de la Basilique Notre-Dame de Fourvière.JPG",
+      "commons_file": "003. Photo prise depuis les toits de la Basilique Notre-Dame de Fourvière.JPG",
+      "width": 500,
+      "height": 333,
+      "author": "Otourly",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:003._Photo_prise_depuis_les_toits_de_la_Basilique_Notre-Dame_de_Fourvi%C3%A8re.JPG"
+    }
+  },
+  "Hotel, Vieux Lyon|45.7620,4.8270": null,
+  "Pont du Gard|43.9471,4.5356": {
+    "matched": "Pont du Gard",
+    "wikidata": "Q189764",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pont_du_Gard",
+    "website": "https://www.pontdugard.fr",
+    "photo": {
+      "file": "pont-du-gard.jpg",
+      "matched": "Pont du Gard",
+      "commons_file": "Pont du Gard BLS.jpg",
+      "width": 500,
+      "height": 193,
+      "author": "Benh LIEU SONG (Flickr)",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_BLS.jpg"
+    }
+  },
+  "Avignon|43.9508,4.8076": {
+    "matched": "Avignon",
+    "wikidata": "Q6397",
+    "wikipedia": "https://en.wikipedia.org/wiki/Avignon",
+    "website": "http://www.avignon.fr",
+    "photo": {
+      "file": "avignon.jpg",
+      "matched": "Avignon",
+      "commons_file": "Avignon, Palais des Papes depuis Tour Philippe le Bel by JM Rosier.jpg",
+      "width": 500,
+      "height": 299,
+      "author": "Jean-Marc Rosier (de/from http://www.cjrosier.com + http://www.gordes-immobilier.com)",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Avignon,_Palais_des_Papes_depuis_Tour_Philippe_le_Bel_by_JM_Rosier.jpg"
+    }
+  },
+  "Musée des Confluences|45.7326,4.8180": {
+    "matched": "Musée des Confluences",
+    "wikidata": "Q8352",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mus%C3%A9e_des_Confluences",
+    "website": "http://www.museedesconfluences.fr",
+    "photo": {
+      "file": "musee-des-confluences.jpg",
+      "matched": "Musée des Confluences",
+      "commons_file": "Lyon - Musée des Confluences (49525806051).jpg",
+      "width": 500,
+      "height": 333,
+      "author": "Fred Romero from Paris, France",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lyon_-_Mus%C3%A9e_des_Confluences_(49525806051).jpg"
+    }
+  },
+  "Vienne Cathedral|45.5242,4.8733": {
+    "matched": "Vienne Cathedral",
+    "wikidata": "Q1410336",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vienne_Cathedral",
+    "website": "http://cathedraledevienne.com/",
+    "photo": {
+      "file": "vienne-cathedral.jpg",
+      "matched": "Vienne Cathedral",
+      "commons_file": "Cathédrale Saint-Maurice (Vienne, 2022).jpg",
+      "width": 500,
+      "height": 500,
+      "author": "SashiRolls",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Saint-Maurice_(Vienne,_2022).jpg"
+    }
+  },
+  "Château d'Albon|45.2482,4.8706": {
+    "matched": "Château d'Albon",
+    "wikidata": "Q2968050",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_d%27Albon",
+    "website": null,
+    "photo": {
+      "file": "chateau-d-albon.jpg",
+      "matched": "Château d'Albon",
+      "commons_file": "Tour d'Albon vue générale.JPG",
+      "width": 500,
+      "height": 665,
+      "author": "Gachepi",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tour_d%27Albon_vue_g%C3%A9n%C3%A9rale.JPG"
+    }
+  },
+  "Château de Tournon|45.0684,4.8318": {
+    "matched": "Château de Tournon",
+    "wikidata": "Q2243758",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Tournon",
+    "website": "http://www.chateaumusee-tournon.com/",
+    "photo": {
+      "file": "chateau-de-tournon.jpg",
+      "matched": "Château de Tournon",
+      "commons_file": "Chateau tournon-4.jpg",
+      "width": 500,
+      "height": 333,
+      "author": "Charcutaille",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chateau_tournon-4.jpg"
+    }
+  },
+  "Château de Crussol|44.9391,4.8525": {
+    "matched": "Château de Crussol",
+    "wikidata": "Q1011401",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Crussol",
+    "website": null,
+    "photo": {
+      "file": "chateau-de-crussol.jpg",
+      "matched": "Château de Crussol",
+      "commons_file": "Crussol 2004-05-19 001.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "Jacques FORÊT :Sequajectrof",
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Crussol_2004-05-19_001.jpg"
+    }
+  },
+  "Château des Adhémar|44.5592,4.7543": {
+    "matched": "Château des Adhémar",
+    "wikidata": "Q2579100",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_des_Adh%C3%A9mar",
+    "website": "http://www.chateaux-ladrome.fr/",
+    "photo": {
+      "file": "chateau-des-adhemar.jpg",
+      "matched": "Château des Adhémar",
+      "commons_file": "Château des Adhémar 08 2006 058.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "M.Minderhoud",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_des_Adh%C3%A9mar_08_2006_058.jpg"
+    }
+  },
+  "Saint-Paul-Trois-Châteaux Cathedral|44.3495,4.7677": {
+    "matched": "Saint-Paul-Trois-Châteaux Cathedral",
+    "wikidata": "Q2002388",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saint-Paul-Trois-Ch%C3%A2teaux_Cathedral",
+    "website": null,
+    "photo": {
+      "file": "saint-paul-trois-chateaux-cathedral.jpg",
+      "matched": "Saint-Paul-Trois-Châteaux Cathedral",
+      "commons_file": "Cathédrale Notre-Dame de Saint-Paul-Trois-Châteaux - façade - 01.jpg",
+      "width": 500,
+      "height": 379,
+      "author": "EmDee",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_de_Saint-Paul-Trois-Ch%C3%A2teaux_-_fa%C3%A7ade_-_01.jpg"
+    }
+  },
+  "Roman Theatre of Orange|44.1358,4.8089": {
+    "matched": "Roman Theatre of Orange",
+    "wikidata": "Q958961",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roman_Theatre_of_Orange",
+    "website": "https://www.theatre-antique.com/",
+    "photo": {
+      "file": "roman-theatre-of-orange.jpg",
+      "matched": "Roman Theatre of Orange",
+      "commons_file": "Le Théâtre Antique d'Orange, 2007.jpg",
+      "width": 500,
+      "height": 334,
+      "author": "Gromelle Grand Angle",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Le_Th%C3%A9%C3%A2tre_Antique_d%27Orange,_2007.jpg"
+    }
+  },
+  "Gorges du Verdon|43.7917,6.3972": {
+    "matched": "119F Gorges du Verdon (15798747499).jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "gorges-du-verdon.jpg",
+      "matched": "119F Gorges du Verdon (15798747499).jpg",
+      "commons_file": "119F Gorges du Verdon (15798747499).jpg",
+      "width": 500,
+      "height": 329,
+      "author": "Rüdiger Stehn from Kiel, Deutschland",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:119F_Gorges_du_Verdon_(15798747499).jpg"
+    }
+  },
+  "Nice|43.6961,7.2718": {
+    "matched": "Nice",
+    "wikidata": "Q33959",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nice",
+    "website": "https://nice.fr",
+    "photo": {
+      "file": "nice.jpg",
+      "matched": "Nice",
+      "commons_file": "Port Of Nice, Côte d'Azur.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "Moody Dreiza (Moody751 at English Wikipedia)",
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Port_Of_Nice,_C%C3%B4te_d%27Azur.jpg"
+    }
+  },
+  "Gorges du Régalon|43.7668,5.1578": {
+    "matched": "Gorges du Régalon",
+    "wikidata": "Q3110986",
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "gorges-du-regalon.jpg",
+      "matched": "Gorges du Régalon",
+      "commons_file": "Gorges du Regalon.jpg",
+      "width": 500,
+      "height": 667,
+      "author": "Patrick Rouzet",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gorges_du_Regalon.jpg"
+    }
+  },
+  "Silvacane Abbey|43.7159,5.3291": {
+    "matched": "Silvacane Abbey",
+    "wikidata": "Q306146",
+    "wikipedia": "https://en.wikipedia.org/wiki/Silvacane_Abbey",
+    "website": null,
+    "photo": {
+      "file": "silvacane-abbey.jpg",
+      "matched": "Silvacane Abbey",
+      "commons_file": "Abbaye de Silvacane Facade panoramic.jpg",
+      "width": 500,
+      "height": 255,
+      "author": "Borvan53",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Abbaye_de_Silvacane_Facade_panoramic.jpg"
+    }
+  },
+  "Verdon Gorge|43.7503,6.3637": {
+    "matched": "Verdon Gorge",
+    "wikidata": "Q687057",
+    "wikipedia": "https://en.wikipedia.org/wiki/Verdon_Gorge",
+    "website": null,
+    "photo": {
+      "file": "verdon-gorge.jpg",
+      "matched": "Verdon Gorge",
+      "commons_file": "Verdon Gorge 1.jpg",
+      "width": 500,
+      "height": 333,
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Verdon_Gorge_1.jpg"
+    }
+  },
+  "Lachens|43.7477,6.6617": {
+    "matched": "Lachens",
+    "wikidata": "Q3322285",
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "lachens.jpg",
+      "matched": "Lachens",
+      "commons_file": "Montagne de lachens (31).JPG",
+      "width": 500,
+      "height": 375,
+      "author": "PETIPLA",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Montagne_de_lachens_(31).JPG"
+    }
+  },
+  "Cime du Cheiron|43.8149,6.9694": {
+    "matched": "Cime du Cheiron",
+    "wikidata": "Q744188",
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "cime-du-cheiron.jpg",
+      "matched": "Cime du Cheiron",
+      "commons_file": "Montagne du Cheiron.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "Patrick Rouzet",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Montagne_du_Cheiron.jpg"
+    }
+  },
+  "Fondation Maeght|43.7009,7.1149": {
+    "matched": "Fondation Maeght",
+    "wikidata": "Q1435689",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fondation_Maeght",
+    "website": "https://www.fondation-maeght.com/",
+    "photo": {
+      "file": "fondation-maeght.jpg",
+      "matched": "Fondation Maeght",
+      "commons_file": "08 Fondation Maeght.JPG",
+      "width": 500,
+      "height": 375,
+      "author": "Waterborough",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:08_Fondation_Maeght.JPG"
+    }
+  },
+  "Villa Ephrussi de Rothschild|43.6966,7.3284": {
+    "matched": "Villa Ephrussi de Rothschild",
+    "wikidata": "Q2452513",
+    "wikipedia": "https://en.wikipedia.org/wiki/Villa_Ephrussi_de_Rothschild",
+    "website": "https://www.villa-ephrussi.com/",
+    "photo": {
+      "file": "villa-ephrussi-de-rothschild.jpg",
+      "matched": "Villa Ephrussi de Rothschild",
+      "commons_file": "Villa Ephrussi de Rothschild BW 2011-06-10 11-24-41.JPG",
+      "width": 500,
+      "height": 336,
+      "author": "Berthold Werner",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Villa_Ephrussi_de_Rothschild_BW_2011-06-10_11-24-41.JPG"
+    }
+  },
+  "Colosseum|41.8902,12.4922": {
+    "matched": "Colosseum",
+    "wikidata": "Q10285",
+    "wikipedia": "https://en.wikipedia.org/wiki/Colosseum",
+    "website": "https://colosseo.it/area/colosseo/",
+    "photo": {
+      "file": "colosseum.jpg",
+      "matched": "Colosseum",
+      "commons_file": "Colosseo 2020.jpg",
+      "width": 500,
+      "height": 350,
+      "author": "FeaturedPics",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Sample — London to Rome",
+  "days": [
+    {
+      "date": "2026-10-01",
+      "title": "Arrive in London",
+      "stops": [
+        {"name": "British Museum", "lat": 51.5194, "lon": -0.1270, "highlight": true,
+         "notes": "Rosetta Stone and the Egyptian galleries."},
+        {"name": "Tower of London", "lat": 51.5081, "lon": -0.0759, "transport": "bus", "highlight": true,
+         "notes": "Crown Jewels; walk across Tower Bridge after."},
+        {"name": "Hotel, King's Cross", "lat": 51.5308, "lon": -0.1238, "transport": "bus", "overnight": true,
+         "station": {"lat": 51.5313, "lon": -0.1262}}
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Eurostar to Paris",
+      "stops": [
+        {"name": "Paris Gare du Nord", "lat": 48.8809, "lon": 2.3553, "transport": "train",
+         "notes": "Eurostar from St Pancras through the Channel Tunnel."},
+        {"name": "Eiffel Tower", "lat": 48.8584, "lon": 2.2945, "transport": "bus", "highlight": true,
+         "notes": "Sunset from the second floor."},
+        {"name": "Hotel, Le Marais", "lat": 48.8570, "lon": 2.3620, "transport": "bus", "overnight": true,
+         "station": {"lat": 48.8443, "lon": 2.3730}}
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "title": "TGV to Lyon",
+      "stops": [
+        {"name": "Lyon Part-Dieu", "lat": 45.7606, "lon": 4.8594, "transport": "train", "photo": false,
+         "notes": "TGV from Gare de Lyon, about 2 hours."},
+        {"name": "Basilique de Fourvière", "lat": 45.7622, "lon": 4.8226, "transport": "bus", "highlight": true,
+         "notes": "Best view over the city."},
+        {"name": "Hotel, Vieux Lyon", "lat": 45.7620, "lon": 4.8270, "transport": "bus", "overnight": true,
+         "notes": "Dinner at a bouchon; explore the traboules."}
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "title": "Road trip into Provence",
+      "stops": [
+        {"name": "Pont du Gard", "place": "Pont du Gard, France", "transport": "car", "highlight": true,
+         "notes": "Roman aqueduct. Swim below if it's warm."},
+        {"name": "Avignon", "lat": 43.9508, "lon": 4.8076, "transport": "car", "overnight": true,
+         "notes": "Palais des Papes."}
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "title": "Gorges du Verdon to the coast",
+      "stops": [
+        {"name": "Gorges du Verdon", "lat": 43.7917, "lon": 6.3972, "transport": "car", "highlight": true,
+         "notes": "Point Sublime lookout over the canyon."},
+        {"name": "Nice", "lat": 43.6961, "lon": 7.2718, "transport": "car", "overnight": true,
+         "notes": "Drop the rental car; evening on the Promenade des Anglais."}
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Fly to Rome",
+      "stops": [
+        {"name": "Colosseum", "lat": 41.8902, "lon": 12.4922, "transport": "flight", "highlight": true,
+         "notes": "Book the underground tour in advance."}
+      ]
+    }
+  ]
+}

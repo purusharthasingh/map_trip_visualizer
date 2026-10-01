@@ -1,0 +1,202 @@
+{
+  "name": "Iceland — Golden Circle, South Coast & Snæfellsnes",
+  "days": [
+    {
+      "date": "2026-10-04",
+      "title": "Arrive in Reykjavik",
+      "stops": [
+        {"name": "Keflavík Airport", "lat": 63.9850, "lon": -22.6056,
+         "notes": "Land 6:05 AM after the overnight flight from Boston; pick up the rental car."},
+        {"name": "Hallgrímskirkja", "lat": 64.1417, "lon": -21.9266, "transport": "car", "highlight": true,
+         "notes": "Tower elevator for the view over the city."},
+        {"name": "Reykjavik", "lat": 64.1466, "lon": -21.9426, "transport": "walking", "overnight": true,
+         "notes": "Staying with a friend. Walking loop: Skólavörðustígur (Rainbow Street) to Laugavegur, old harbor, Sun Voyager sculpture. No driving pressure today."}
+      ],
+      "extras": [
+        {"name": "Skólavörðustígur (Rainbow Street)", "lat": 64.1441, "lon": -21.9299, "type": "planned",
+         "notes": "Walking loop: down Rainbow Street to Laugavegur."},
+        {"name": "Laugavegur", "lat": 64.1430, "lon": -21.9130, "type": "planned",
+         "notes": "Coffee and browsing."},
+        {"name": "Old Harbour", "lat": 64.1517, "lon": -21.9421, "type": "planned"},
+        {"name": "Sun Voyager (Sólfar)", "lat": 64.1476, "lon": -21.9223, "type": "planned",
+         "photo": "1990 zum 200-jährigen Jubiläum von Reykjavik wurde die Skulptur Solfar (Sonnenfahrt) enthüllt. 01.jpg"},
+        {"name": "Harpa Concert Hall", "lat": 64.1504, "lon": -21.9329, "type": "optional", "photo": "Harpa (concert hall).jpg",
+         "notes": "If energy allows."},
+        {"name": "Tjörnin", "lat": 64.1445, "lon": -21.9423, "type": "optional",
+         "notes": "City pond, if energy allows."},
+        {"name": "Perlan Museum & Öskjuhlíð forest", "lat": 64.1292, "lon": -21.9190, "type": "optional",
+         "notes": "Museum + forest walk. Perlan's exhibits are also a good indoor fallback if it's rough out."},
+        {"name": "Grandi harbour district & Saga Museum", "lat": 64.1526, "lon": -21.9513, "type": "optional",
+         "notes": "Saga Museum, breweries."}
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "title": "Golden Circle",
+      "stops": [
+        {"name": "Þingvellir", "lat": 64.2559, "lon": -21.1293, "transport": "car", "highlight": true,
+         "notes": "Rift valley, tectonic plates."},
+        {"name": "Geysir", "lat": 64.3128, "lon": -20.3024, "transport": "car", "highlight": true,
+         "notes": "Geothermal area; Strokkur erupts every few minutes."},
+        {"name": "Gullfoss", "lat": 64.3271, "lon": -20.1197, "transport": "car", "highlight": true,
+         "notes": "Waterfall."},
+        {"name": "Reykjavik", "lat": 64.1466, "lon": -21.9426, "transport": "car", "overnight": true,
+         "notes": "Back by mid-to-late afternoon or early evening — room for Laugardalur pool or dinner."}
+      ],
+      "extras": [
+        {"name": "Brúarfoss", "lat": 64.2642, "lon": -20.5159, "type": "optional",
+         "notes": "Optional detour: smaller, bluer waterfall."},
+        {"name": "Þjóðveldisbærinn", "lat": 64.1200, "lon": -19.8206, "type": "optional",
+         "notes": "Reconstructed Commonwealth-era farm. Hours unverified — may be closed for the season."},
+        {"name": "Laugardalslaug", "lat": 64.1461, "lon": -21.8799, "type": "optional",
+         "notes": "Evening pool soak in Laugardalur."}
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "title": "South Coast to Hali",
+      "stops": [
+        {"name": "Seljalandsfoss", "lat": 63.6156, "lon": -19.9900, "transport": "car", "highlight": true,
+         "notes": "Waterfall you can walk behind."},
+        {"name": "Dyrhólaey", "lat": 63.4022, "lon": -19.1268, "transport": "car", "highlight": true,
+         "notes": "Coastal promontory, arch rock."},
+        {"name": "Reynisfjara", "lat": 63.4033, "lon": -19.0431, "transport": "car", "highlight": true,
+         "notes": "Black sand beach, basalt columns; Víkurkirkja nearby."},
+        {"name": "Fjaðrárgljúfur", "lat": 63.7724, "lon": -18.1719, "transport": "car", "highlight": true,
+         "notes": "Canyon."},
+        {"name": "Skyrhúsið Guesthouse, Hali", "lat": 64.1292, "lon": -16.0161, "url": "https://skyrhusid.is/", "transport": "car", "overnight": true,
+         "notes": "Heaviest driving day of the trip — arriving late evening is fine. Night 1 away from Reykjavik."}
+      ],
+      "extras": [
+        {"name": "Gljúfrabúi", "lat": 63.6208, "lon": -19.9863, "type": "optional",
+         "notes": "Hidden waterfall, a short walk from Seljalandsfoss."},
+        {"name": "Sólheimajökull", "lat": 63.5660, "lon": -19.2955, "type": "optional",
+         "notes": "Glacier viewpoint, if time allows (otherwise Day 5)."},
+        {"name": "Víkurkirkja", "lat": 63.4205, "lon": -19.0029, "type": "planned",
+         "notes": "Church above Vík."},
+        {"name": "Kirkjugólf", "lat": 63.7952, "lon": -18.0462, "type": "planned",
+         "notes": "Basalt 'church floor', on the way past Kirkjubæjarklaustur."},
+        {"name": "Systrafoss", "lat": 63.7875, "lon": -18.0597, "type": "backup",
+         "notes": "If Reynisfjara is closed for high waves: sub in Kirkjugólf + Systrafoss."}
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Skaftafell & Jökulsárlón",
+      "stops": [
+        {"name": "Jökulsárlón", "lat": 64.0784, "lon": -16.1788, "transport": "car", "highlight": true,
+         "notes": "Glacier lagoon + Diamond Beach."},
+        {"name": "Skaftafell", "lat": 64.0166, "lon": -16.9750,
+         "url": "https://www.vatnajokulsthjodgardur.is/en/areas/skaftafell", "transport": "car", "highlight": true,
+         "notes": "Glacier hike + Katla ice cave tour, 9:45 AM (booked)."},
+        {"name": "Fox Hostel, Hrífunes", "lat": 63.6411, "lon": -18.5076, "url": "https://foxhostel.is/", "transport": "car", "overnight": true,
+         "notes": "Night 2 away."}
+      ],
+      "extras": [
+        {"name": "Diamond Beach", "lat": 64.0431, "lon": -16.1782, "type": "planned",
+         "notes": "Ice chunks on black sand, across the road from Jökulsárlón."},
+        {"name": "Fjallsárlón", "lat": 64.0229, "lon": -16.3978, "type": "optional",
+         "notes": "Quieter glacier lagoon, if time/energy allow."},
+        {"name": "Svartifoss", "lat": 64.0277, "lon": -16.9753, "type": "optional",
+         "notes": "Basalt-column waterfall, hike up from Skaftafell."},
+        {"name": "Vatnajökull visitor centre (Skaftafellsstofa)", "lat": 64.0167, "lon": -16.9663, "type": "backup",
+         "notes": "If the glacier/ice cave tour is weathered out (operators rebook or refund); also the Jökulsárlón boat tour or extra time at Diamond Beach."},
+        {"name": "Eldhraun lava field", "lat": 63.7459, "lon": -18.1607, "type": "planned",
+         "notes": "Quick stop at the moss-covered lava field."}
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Retrace West to Vík",
+      "stops": [
+        {"name": "Skógafoss", "lat": 63.5321, "lon": -19.5116, "transport": "car", "highlight": true,
+         "notes": "Waterfall."},
+        {"name": "Vík Hostel", "lat": 63.4181, "lon": -19.0060, "url": "https://www.hostel.is/en/hostels/hi-vik", "transport": "car", "overnight": true,
+         "notes": "Night 3 away."}
+      ],
+      "extras": [
+        {"name": "Sólheimajökull", "lat": 63.5660, "lon": -19.2955, "type": "planned",
+         "notes": "If not done on Day 3. Short walk from the parking lot, fine in bad weather."},
+        {"name": "Múlagljúfur", "lat": 63.9892, "lon": -16.4694, "type": "optional",
+         "notes": "Canyon near Kvísker."},
+        {"name": "Kötlusetur (Katla Geopark centre) & Skaftfellingur museum", "lat": 63.4176, "lon": -19.0141,
+         "type": "backup", "notes": "Indoor options in Vík if it's a washout."}
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Back to Reykjavik",
+      "color": "#4a3aa7",
+      "stops": [
+        {"name": "Reykjavik", "lat": 64.1466, "lon": -21.9426, "transport": "car", "overnight": true,
+         "notes": "Short drive back (~2.5–3 hrs) — the slack day. Room to catch up on anything skipped earlier in the week."}
+      ],
+      "extras": [
+        {"name": "Reykjadalur hot river", "lat": 64.0212, "lon": -21.2112, "type": "optional",
+         "notes": "Hot river valley hike, en route."},
+        {"name": "Skógar Museum", "lat": 63.5259, "lon": -19.4913, "type": "backup",
+         "notes": "Bad weather day: indoor turf houses + folk history."}
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Snæfellsnes Peninsula",
+      "color": "#008300",
+      "stops": [
+        {"name": "Arnarstapi", "lat": 64.7660, "lon": -23.6200, "transport": "car", "highlight": true,
+         "notes": "Coastal walking path to Hellnar; Gatklettur rock arch."},
+        {"name": "Djúpalónssandur", "lat": 64.7563, "lon": -23.9089, "transport": "car", "highlight": true,
+         "notes": "Black pebble beach, shipwreck remains."},
+        {"name": "Kirkjufell", "lat": 64.9412, "lon": -23.3086, "transport": "car", "highlight": true,
+         "notes": "Headline stop of the day, saved for last; Kirkjufellsfoss alongside it."},
+        {"name": "Reykjavik", "lat": 64.1466, "lon": -21.9426, "transport": "car", "overnight": true,
+         "notes": "Long day, 10–12 hrs round trip, depart by 7–8 AM. Evening: dinner and a short wind-down — optional Sky Lagoon or Laugardalur pool."}
+      ],
+      "extras": [
+        {"name": "Borgarnes", "lat": 64.5383, "lon": -21.9202, "type": "planned",
+         "notes": "Route 1 to Borgarnes (~2 hrs to the peninsula), then Route 54 around."},
+        {"name": "Eldborg crater", "lat": 64.7964, "lon": -22.3215, "type": "optional", "notes": "En route."},
+        {"name": "Grábrók", "lat": 64.7714, "lon": -21.5312, "type": "optional", "notes": "Crater, en route."},
+        {"name": "Ytri Tunga", "lat": 64.8040, "lon": -23.0803, "type": "planned",
+         "notes": "Seal beach (seals not guaranteed)."},
+        {"name": "Búðakirkja", "lat": 64.8217, "lon": -23.3840, "type": "planned", "notes": "The black church."},
+        {"name": "Hellnar", "lat": 64.7509, "lon": -23.6469, "type": "planned",
+         "notes": "Coastal walking path from Arnarstapi."},
+        {"name": "Gatklettur", "lat": 64.7653, "lon": -23.6219, "type": "planned", "notes": "Rock arch."},
+        {"name": "Snæfellsjökull National Park visitor centre (Malarrif)", "lat": 64.7292, "lon": -23.8017,
+         "type": "backup", "notes": "Indoor fallback, along with Arnarstapi's cafes."},
+        {"name": "Skarðsvík Beach", "lat": 64.8816, "lon": -23.9859, "type": "optional", "notes": "Gold sand beach."},
+        {"name": "Svörtuloft Lighthouse", "lat": 64.8637, "lon": -24.0390, "type": "optional", "notes": "Gravel road."},
+        {"name": "Kirkjufellsfoss", "lat": 64.9262, "lon": -23.3124, "type": "planned",
+         "notes": "Waterfall alongside Kirkjufell."},
+        {"name": "Grundarfjörður", "lat": 64.9250, "lon": -23.2593, "type": "planned", "notes": "Passing through."},
+        {"name": "Stykkishólmur", "lat": 65.0743, "lon": -22.7303, "type": "planned", "notes": "Passing through."},
+        {"name": "Sky Lagoon", "lat": 64.1165, "lon": -21.9464, "type": "optional", "notes": "Evening soak."},
+        {"name": "Hlemmur Mathöll", "lat": 64.1431, "lon": -21.9144, "type": "optional",
+         "notes": "Food hall at the east end of Laugavegur."}
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Departure",
+      "stops": [
+        {"name": "Keflavík Airport", "lat": 63.9850, "lon": -22.6056, "transport": "car",
+         "notes": "Drop off rental car 2:00 PM. Depart 5:10 PM, arrive Boston 6:50 PM."}
+      ],
+      "extras": [
+        {"name": "Blue Lagoon", "lat": 63.8792, "lon": -22.4443, "type": "optional",
+         "notes": "On the way to the airport. Sells out in advance — not yet booked."}
+      ]
+    }
+  ],
+  "extras": [
+    {"name": "Viðey Island", "lat": 64.1652, "lon": -21.8534, "type": "idea",
+     "notes": "Short ferry from the old harbor: trails, birdlife, Imagine Peace Tower. Half-day trip."},
+    {"name": "Nauthólsvík Geothermal Beach", "lat": 64.1210, "lon": -21.9273, "type": "idea",
+     "notes": "Man-made geothermal beach near Öskjuhlíð/Perlan; small fee for a hot pot soak."},
+    {"name": "Árbær Open Air Museum", "lat": 64.1185, "lon": -21.8184, "type": "idea",
+     "notes": "Historic buildings and old Reykjavik houses."},
+    {"name": "Esja", "lat": 64.2450, "lon": -21.6569, "type": "idea",
+     "notes": "Half-day hike ~10 km north of the city."}
+  ]
+}
