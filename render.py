@@ -1042,6 +1042,11 @@ document.addEventListener('DOMContentLoaded', function () {{
     box.addEventListener('change', function () {{
       hiddenDays[box.dataset.dayToggle] = !box.checked;
       box.closest('.day-row').classList.toggle('day-hidden', !box.checked);
+      // Hiding the selected day drops the selection, or the days still shown would stay faded behind it.
+      if (!box.checked && focusedDay === box.dataset.dayToggle) {{
+        box.closest('.day-row').classList.remove('active');
+        focusDay({{dataset: {{}}}});
+      }}
       syncDaysMaster();
       setTimeout(declutter, 0);
     }});
