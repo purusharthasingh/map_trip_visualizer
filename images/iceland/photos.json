@@ -1113,5 +1113,118 @@
     "author": "Manuelarosi",
     "license": "CC BY-SA 4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Harpa_(concert_hall).jpg"
+  },
+  "Kvernufoss|63.5285,-19.4835": {
+    "matched": "Kvernufoss",
+    "wikidata": "Q2683317",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kvernufoss",
+    "website": null,
+    "photo": {
+      "file": "kvernufoss.jpg",
+      "matched": "Kvernufoss",
+      "commons_file": "Kvernufoss.JPG",
+      "width": 500,
+      "height": 375,
+      "author": "Bromr",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kvernufoss.JPG"
+    }
+  },
+  "Seljavallalaug|63.5652,-19.6083": {
+    "matched": "Seljavallalaug",
+    "wikidata": "Q7448515",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seljavallalaug",
+    "website": null,
+    "photo": {
+      "file": "seljavallalaug.jpg",
+      "matched": "Seljavallalaug",
+      "commons_file": "Isl Seljavallalaug framan.JPG",
+      "width": 500,
+      "height": 667,
+      "author": "Jabbi",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Isl_Seljavallalaug_framan.JPG"
+    }
+  },
+  "Kerið|64.0410,-20.8853": {
+    "matched": "Kerið",
+    "wikidata": "Q1435393",
+    "wikipedia": "https://en.wikipedia.org/wiki/Keri%C3%B0",
+    "website": null,
+    "photo": {
+      "file": "kerid.jpg",
+      "matched": "Kerið",
+      "commons_file": "Kerid-08-Krater-1980-gje.jpg",
+      "width": 500,
+      "height": 332,
+      "author": "Gerd Eichmann",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kerid-08-Krater-1980-gje.jpg"
+    }
+  },
+  "Grótta Lighthouse|64.1645,-22.0222": {
+    "matched": "Grótta",
+    "wikidata": "Q3118633",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gr%C3%B3tta",
+    "website": null,
+    "photo": {
+      "file": "grotta-lighthouse.jpg",
+      "matched": "Grótta",
+      "commons_file": "Seltjarnarnes - Bassa marea.JPG",
+      "width": 500,
+      "height": 375,
+      "author": "Bultro",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Seltjarnarnes_-_Bassa_marea.JPG"
+    }
+  },
+  "Heiðmörk|64.0560,-21.8250": {
+    "matched": "Heiðmörk",
+    "wikidata": "Q1145380",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hei%C3%B0m%C3%B6rk",
+    "website": null,
+    "photo": {
+      "file": "heidmork.jpg",
+      "matched": "Heiðmörk",
+      "commons_file": "Heidmork (44).JPG",
+      "width": 500,
+      "height": 375,
+      "author": "Roman Z",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Heidmork_(44).JPG"
+    }
+  },
+  "Laugardalur Botanical Garden & Family Park Zoo|64.1395,-21.8670": null,
+  "Laugardalur|64.1400,-21.8740": {
+    "matched": "Laugardalur",
+    "wikidata": "Q6497990",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laugardalur",
+    "website": null,
+    "photo": {
+      "file": "laugardalur.jpg",
+      "matched": "Laugardalur",
+      "commons_file": "Run or walk (5873983902).jpg",
+      "width": 500,
+      "height": 333,
+      "author": "Helgi Halldórsson from Reykjavík, Iceland",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Run_or_walk_(5873983902).jpg"
+    }
+  },
+  "Saga Museum|64.1530,-21.9516": {
+    "matched": "Saga Museum",
+    "wikidata": "Q16335762",
+    "wikipedia": null,
+    "website": "http://www.sagamuseum.is/",
+    "photo": {
+      "file": "saga-museum.jpg",
+      "matched": "Saga Museum",
+      "commons_file": "The Saga Museum.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "Grásíða",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Saga_Museum.jpg"
+    }
   }
 }

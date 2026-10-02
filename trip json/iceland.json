@@ -25,9 +25,13 @@
         {"name": "Tjörnin", "lat": 64.1445, "lon": -21.9423, "type": "optional",
          "notes": "City pond, if energy allows."},
         {"name": "Perlan Museum & Öskjuhlíð forest", "lat": 64.1292, "lon": -21.9190, "type": "optional",
-         "notes": "Museum + forest walk. Perlan's exhibits are also a good indoor fallback if it's rough out."},
+         "notes": "Museum + forest walk. Perlan's exhibits are also a good indoor fallback if it's rough out. (Aurora) Öskjuhlíð hill is the walkable, elevated viewing spot without a car."},
         {"name": "Grandi harbour district & Saga Museum", "lat": 64.1526, "lon": -21.9513, "type": "optional",
-         "notes": "Saga Museum, breweries."}
+         "notes": "Saga Museum, breweries."},
+        {"name": "Grótta Lighthouse", "lat": 64.1645, "lon": -22.0222, "type": "optional",
+         "notes": "(Aurora) Reykjavik's best-known viewing spot, ocean-facing, ~15 min drive. Any Reykjavik night (Days 1, 2, 6, 7)."},
+        {"name": "Heiðmörk", "lat": 64.0560, "lon": -21.8250, "type": "optional",
+         "notes": "(Aurora) Darker than the city, ~25–30 min drive. Any Reykjavik night (Days 1, 2, 6, 7)."}
       ]
     },
     {
@@ -49,7 +53,7 @@
         {"name": "Þjóðveldisbærinn", "lat": 64.1200, "lon": -19.8206, "type": "optional",
          "notes": "Reconstructed Commonwealth-era farm. Hours unverified — may be closed for the season."},
         {"name": "Laugardalslaug", "lat": 64.1461, "lon": -21.8799, "type": "optional",
-         "notes": "Evening pool soak in Laugardalur."}
+         "notes": "Evening pool soak in Laugardalur — cheaper and more local than Sky Lagoon or Blue Lagoon. Botanical garden and a small zoo next door."}
       ]
     },
     {
@@ -59,9 +63,9 @@
         {"name": "Seljalandsfoss", "lat": 63.6156, "lon": -19.9900, "transport": "car", "highlight": true,
          "notes": "Waterfall you can walk behind."},
         {"name": "Dyrhólaey", "lat": 63.4022, "lon": -19.1268, "transport": "car", "highlight": true,
-         "notes": "Coastal promontory, arch rock."},
+         "notes": "Coastal promontory, arch rock. (Aurora) Good viewing spot from Vík on Day 5 night — dark, open sky with the arch as a backdrop."},
         {"name": "Reynisfjara", "lat": 63.4033, "lon": -19.0431, "transport": "car", "highlight": true,
-         "notes": "Black sand beach, basalt columns; Víkurkirkja nearby."},
+         "notes": "Black sand beach, basalt columns; Víkurkirkja nearby. (Aurora) Good viewing spot from Vík on Day 5 night — dark, open sky with the sea stacks as a backdrop."},
         {"name": "Fjaðrárgljúfur", "lat": 63.7724, "lon": -18.1719, "transport": "car", "highlight": true,
          "notes": "Canyon."},
         {"name": "Skyrhúsið Guesthouse, Hali", "lat": 64.1292, "lon": -16.0161, "url": "https://skyrhusid.is/", "transport": "car", "overnight": true,
@@ -70,8 +74,6 @@
       "extras": [
         {"name": "Gljúfrabúi", "lat": 63.6208, "lon": -19.9863, "type": "optional",
          "notes": "Hidden waterfall, a short walk from Seljalandsfoss."},
-        {"name": "Sólheimajökull", "lat": 63.5660, "lon": -19.2955, "type": "optional",
-         "notes": "Glacier viewpoint, if time allows (otherwise Day 5)."},
         {"name": "Víkurkirkja", "lat": 63.4205, "lon": -19.0029, "type": "planned",
          "notes": "Church above Vík."},
         {"name": "Kirkjugólf", "lat": 63.7952, "lon": -18.0462, "type": "planned",
@@ -85,7 +87,7 @@
       "title": "Skaftafell & Jökulsárlón",
       "stops": [
         {"name": "Jökulsárlón", "lat": 64.0784, "lon": -16.1788, "transport": "car", "highlight": true,
-         "notes": "Glacier lagoon + Diamond Beach."},
+         "notes": "Glacier lagoon + Diamond Beach. (Aurora) 13 km from the Hali guesthouse on Day 3 night — one of Iceland's most photographed aurora spots, icebergs reflecting the lights."},
         {"name": "Skaftafell", "lat": 64.0166, "lon": -16.9750,
          "url": "https://www.vatnajokulsthjodgardur.is/en/areas/skaftafell", "transport": "car", "highlight": true,
          "notes": "Glacier hike + Katla ice cave tour, 9:45 AM (booked)."},
@@ -119,6 +121,10 @@
          "notes": "If not done on Day 3. Short walk from the parking lot, fine in bad weather."},
         {"name": "Múlagljúfur", "lat": 63.9892, "lon": -16.4694, "type": "optional",
          "notes": "Canyon near Kvísker."},
+        {"name": "Kvernufoss", "lat": 63.5285, "lon": -19.4835, "type": "optional",
+         "notes": "Waterfall near Skógafoss, 15–20 min walk in, far less crowded than Skógafoss itself."},
+        {"name": "Seljavallalaug", "lat": 63.5652, "lon": -19.6083, "type": "optional",
+         "notes": "Old hidden geothermal pool in a valley near Skógar, ~20 min walk in. Bring a towel."},
         {"name": "Kötlusetur (Katla Geopark centre) & Skaftfellingur museum", "lat": 63.4176, "lon": -19.0141,
          "type": "backup", "notes": "Indoor options in Vík if it's a washout."}
       ]
@@ -132,8 +138,16 @@
          "notes": "Short drive back (~2.5–3 hrs) — the slack day. Room to catch up on anything skipped earlier in the week."}
       ],
       "extras": [
+        {"name": "Kerið", "lat": 64.0410, "lon": -20.8853, "type": "optional",
+         "notes": "Crater lake near Selfoss, en route. Paid entry (~900 ISK) — a reasonable fill-in on a light day."},
         {"name": "Reykjadalur hot river", "lat": 64.0212, "lon": -21.2112, "type": "optional",
-         "notes": "Hot river valley hike, en route."},
+         "notes": "Hot river valley hike, en route: ~45 min walk in to a warm bathing spot near Hveragerði."},
+        {"name": "Nauthólsvík Geothermal Beach", "lat": 64.1210, "lon": -21.9273, "type": "optional",
+         "notes": "Evening: man-made geothermal beach near Öskjuhlíð/Perlan; small fee for a hot pot soak."},
+        {"name": "Viðey Island", "lat": 64.1652, "lon": -21.8534, "type": "optional",
+         "notes": "Evening: short ferry from the old harbor (if not done on Day 1). Trails, birdlife, Imagine Peace Tower."},
+        {"name": "Hlemmur Mathöll", "lat": 64.1431, "lon": -21.9144, "type": "optional",
+         "notes": "Evening (or Day 7 evening): food hall for a more local dinner than the main tourist strip."},
         {"name": "Skógar Museum", "lat": 63.5259, "lon": -19.4913, "type": "backup",
          "notes": "Bad weather day: indoor turf houses + folk history."}
       ]
@@ -171,9 +185,7 @@
          "notes": "Waterfall alongside Kirkjufell."},
         {"name": "Grundarfjörður", "lat": 64.9250, "lon": -23.2593, "type": "planned", "notes": "Passing through."},
         {"name": "Stykkishólmur", "lat": 65.0743, "lon": -22.7303, "type": "planned", "notes": "Passing through."},
-        {"name": "Sky Lagoon", "lat": 64.1165, "lon": -21.9464, "type": "optional", "notes": "Evening soak."},
-        {"name": "Hlemmur Mathöll", "lat": 64.1431, "lon": -21.9144, "type": "optional",
-         "notes": "Food hall at the east end of Laugavegur."}
+        {"name": "Sky Lagoon", "lat": 64.1165, "lon": -21.9464, "type": "optional", "notes": "Evening soak."}
       ]
     },
     {
@@ -190,13 +202,9 @@
     }
   ],
   "extras": [
-    {"name": "Viðey Island", "lat": 64.1652, "lon": -21.8534, "type": "idea",
-     "notes": "Short ferry from the old harbor: trails, birdlife, Imagine Peace Tower. Half-day trip."},
-    {"name": "Nauthólsvík Geothermal Beach", "lat": 64.1210, "lon": -21.9273, "type": "idea",
-     "notes": "Man-made geothermal beach near Öskjuhlíð/Perlan; small fee for a hot pot soak."},
     {"name": "Árbær Open Air Museum", "lat": 64.1185, "lon": -21.8184, "type": "idea",
-     "notes": "Historic buildings and old Reykjavik houses."},
+     "notes": "Historic buildings and old Reykjavik houses, southeastern part of the city."},
     {"name": "Esja", "lat": 64.2450, "lon": -21.6569, "type": "idea",
-     "notes": "Half-day hike ~10 km north of the city."}
+     "notes": "Proper half-day hike ~10 km north of the city."}
   ]
 }
