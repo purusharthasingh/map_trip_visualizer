@@ -1,0 +1,551 @@
+{
+  "Dallas/Fort Worth Airport|32.8998,-97.0403": {
+    "matched": "Dallas Fort Worth International Airport",
+    "wikidata": "Q459096",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dallas_Fort_Worth_International_Airport",
+    "website": "http://www.dfwairport.com/",
+    "photo": {
+      "file": "dallas-fort-worth-airport.jpg",
+      "matched": "Dallas Fort Worth International Airport",
+      "commons_file": "DFWAirportOverview.jpg",
+      "width": 500,
+      "height": 376,
+      "author": "Todd MacDonald",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:DFWAirportOverview.jpg"
+    }
+  },
+  "Mexico City International Airport|19.4363,-99.0721": {
+    "matched": "Mexico City International Airport",
+    "wikidata": "Q860559",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mexico_City_International_Airport",
+    "website": "https://www.aicm.com.mx",
+    "photo": {
+      "file": "mexico-city-international-airport.jpg",
+      "matched": "Mexico City International Airport",
+      "commons_file": "Benitojuarezarptaerial.jpg",
+      "width": 500,
+      "height": 436,
+      "author": "Unknown author",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Benitojuarezarptaerial.jpg"
+    }
+  },
+  "Parral 14 Boutique Hotel|19.4135,-99.1735": null,
+  "Teotihuacán|19.6925,-98.8438": {
+    "matched": "Teotihuacan",
+    "wikidata": "Q172613",
+    "wikipedia": "https://en.wikipedia.org/wiki/Teotihuacan",
+    "website": "https://www.inah.gob.mx/zonas/23-zona-arqueologica-de-teotihuacan",
+    "photo": {
+      "file": "teotihuacan.jpg",
+      "matched": "Teotihuacan",
+      "commons_file": "ZA77 Teotihuacán edo de mex Herberto de la rosa.jpg",
+      "width": 500,
+      "height": 332,
+      "author": "Hdlrosa",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:ZA77_Teotihuac%C3%A1n_edo_de_mex_Herberto_de_la_rosa.jpg"
+    }
+  },
+  "La Gruta Restaurant|19.6889,-98.8431": null,
+  "Azul Condesa|19.4115,-99.1721": null,
+  "Basilica of Our Lady of Guadalupe|19.4848,-99.1179": {
+    "matched": "Basilica of Our Lady of Guadalupe",
+    "wikidata": "Q305419",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_Guadalupe",
+    "website": "http://www.virgendeguadalupe.org.mx",
+    "photo": {
+      "file": "basilica-of-our-lady-of-guadalupe.jpg",
+      "matched": "Basilica of Our Lady of Guadalupe",
+      "commons_file": "Mexico city Insigne y Nacional Basílica de Santa María de Guadalupe 7.JPG",
+      "width": 500,
+      "height": 333,
+      "author": "Arne Müseler",
+      "license": "CC BY-SA 3.0 de",
+      "source": "https://commons.wikimedia.org/wiki/File:Mexico_city_Insigne_y_Nacional_Bas%C3%ADlica_de_Santa_Mar%C3%ADa_de_Guadalupe_7.JPG"
+    }
+  },
+  "Zócalo|19.4326,-99.1333": {
+    "matched": "Zócalo",
+    "wikidata": "Q1348507",
+    "wikipedia": "https://en.wikipedia.org/wiki/Z%C3%B3calo",
+    "website": null,
+    "photo": {
+      "file": "zocalo.jpg",
+      "matched": "Zócalo",
+      "commons_file": "Plaza de la Constitución - Zócalo de la Ciudad de México - 6.jpg",
+      "width": 500,
+      "height": 281,
+      "author": "ProtoplasmaKid",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Constituci%C3%B3n_-_Z%C3%B3calo_de_la_Ciudad_de_M%C3%A9xico_-_6.jpg"
+    }
+  },
+  "Metropolitan Cathedral|19.4344,-99.1331": {
+    "matched": "Pendulum - Metropolitan Cathedral of Mexico City - Mexico 2024 (4).jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "metropolitan-cathedral.jpg",
+      "matched": "Pendulum - Metropolitan Cathedral of Mexico City - Mexico 2024 (4).jpg",
+      "commons_file": "Pendulum - Metropolitan Cathedral of Mexico City - Mexico 2024 (4).jpg",
+      "width": 500,
+      "height": 237,
+      "author": "José Luiz",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pendulum_-_Metropolitan_Cathedral_of_Mexico_City_-_Mexico_2024_(4).jpg"
+    }
+  },
+  "Templo Mayor Museum|19.4346,-99.1319": {
+    "matched": "Templo Mayor",
+    "wikidata": "Q774021",
+    "wikipedia": "https://en.wikipedia.org/wiki/Templo_Mayor",
+    "website": "https://www.templomayor.inah.gob.mx/",
+    "photo": {
+      "file": "templo-mayor-museum.jpg",
+      "matched": "Templo Mayor",
+      "commons_file": "Templo Mayor 50.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "GAED",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Templo_Mayor_50.jpg"
+    }
+  },
+  "National Palace|19.4329,-99.1314": {
+    "matched": "National Palace",
+    "wikidata": "Q1517884",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Palace_%28Mexico%29",
+    "website": "https://www.gob.mx/palacionacional",
+    "photo": {
+      "file": "national-palace.jpg",
+      "matched": "National Palace",
+      "commons_file": "Palacio Nacional, México D.F., México, 2013-10-16, DD 119.JPG",
+      "width": 500,
+      "height": 244,
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_Nacional,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2013-10-16,_DD_119.JPG"
+    }
+  },
+  "Casa de los Azulejos|19.4342,-99.1402": {
+    "matched": "Casa de los Azulejos",
+    "wikidata": "Q1267814",
+    "wikipedia": "https://en.wikipedia.org/wiki/Casa_de_los_Azulejos",
+    "website": null,
+    "photo": {
+      "file": "casa-de-los-azulejos.jpg",
+      "matched": "Casa de los Azulejos",
+      "commons_file": "Casa de Azulejos 3.jpg",
+      "width": 500,
+      "height": 333,
+      "author": "Thomas Ledl",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_de_Azulejos_3.jpg"
+    }
+  },
+  "Torre Latinoamericana|19.4339,-99.1407": {
+    "matched": "Torre Latinoamericana",
+    "wikidata": "Q947870",
+    "wikipedia": "https://en.wikipedia.org/wiki/Torre_Latinoamericana",
+    "website": null,
+    "photo": {
+      "file": "torre-latinoamericana.jpg",
+      "matched": "Torre Latinoamericana",
+      "commons_file": "Mexico df - Torre Latinoamerica.jpg",
+      "width": 500,
+      "height": 750,
+      "author": "Thomas Ledl",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mexico_df_-_Torre_Latinoamerica.jpg"
+    }
+  },
+  "Palacio de Bellas Artes|19.4352,-99.1412": {
+    "matched": "Palacio de Bellas Artes",
+    "wikidata": "Q1139081",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palacio_de_Bellas_Artes",
+    "website": "https://palacio.inba.gob.mx/",
+    "photo": {
+      "file": "palacio-de-bellas-artes.jpeg",
+      "matched": "Palacio de Bellas Artes",
+      "commons_file": "Atardecer En Bellas Artes Vertical (128312121).jpeg",
+      "width": 500,
+      "height": 750,
+      "author": "Octavio Alonso Maya Castro",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Atardecer_En_Bellas_Artes_Vertical_(128312121).jpeg"
+    }
+  },
+  "Mercado de San Juan|19.4300,-99.1446": {
+    "matched": "Interior del Mercado de San Juan 09.jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "mercado-de-san-juan.jpg",
+      "matched": "Interior del Mercado de San Juan 09.jpg",
+      "commons_file": "Interior del Mercado de San Juan 09.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "Luis Alvaz",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Interior_del_Mercado_de_San_Juan_09.jpg"
+    }
+  },
+  "La Ciudadela Market|19.4308,-99.1494": {
+    "matched": "Ciudadela Market",
+    "wikidata": "Q18347778",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ciudadela_Market",
+    "website": null,
+    "photo": {
+      "file": "la-ciudadela-market.jpg",
+      "matched": "Ciudadela Market",
+      "commons_file": "ArtesaniasCiudadela.JPG",
+      "width": 500,
+      "height": 375,
+      "author": "Thelmadatter",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:ArtesaniasCiudadela.JPG"
+    }
+  },
+  "Barrio Chino (Chinatown)|19.4337,-99.1406": {
+    "matched": "Barrio Chino (Mexico City)",
+    "wikidata": "Q5100149",
+    "wikipedia": "https://en.wikipedia.org/wiki/Barrio_Chino_%28Mexico_City%29",
+    "website": null,
+    "photo": {
+      "file": "barrio-chino-chinatown.jpg",
+      "matched": "Barrio Chino (Mexico City)",
+      "commons_file": "Barrio Chino de la Ciudad de México - Año Nuevo Chino - 25 de enero de 2020.jpg",
+      "width": 500,
+      "height": 340,
+      "author": "Juan Carlos Fonseca Mata",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Barrio_Chino_de_la_Ciudad_de_M%C3%A9xico_-_A%C3%B1o_Nuevo_Chino_-_25_de_enero_de_2020.jpg"
+    }
+  },
+  "La Isla Bonita|19.4110,-99.1730": null,
+  "Coyoacán (Jardín Centenario / Plaza Hidalgo)|19.3467,-99.1618": {
+    "matched": "Coyoacán",
+    "wikidata": "Q661315",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coyoac%C3%A1n",
+    "website": "http://www.coyoacan.cdmx.gob.mx/",
+    "photo": {
+      "file": "coyoacan-jardin-centenario-plaza-hidalgo.jpg",
+      "matched": "Coyoacán",
+      "commons_file": "Mexico.DF.Coyoacan.JardinHidalgo.01.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "Unknown author",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mexico.DF.Coyoacan.JardinHidalgo.01.jpg"
+    }
+  },
+  "UNAM murals (Ciudad Universitaria)|19.3326,-99.1868": {
+    "matched": "Ciudad Universitaria",
+    "wikidata": "Q130025",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ciudad_Universitaria%2C_Mexico_City",
+    "website": null,
+    "photo": {
+      "file": "unam-murals-ciudad-universitaria.jpg",
+      "matched": "Ciudad Universitaria",
+      "commons_file": "Biblioteca and Torre des Humanidades I from Las Islas, Ciudad Universitaria, Mexico City.jpg",
+      "width": 500,
+      "height": 325,
+      "author": "Daniel Case",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Biblioteca_and_Torre_des_Humanidades_I_from_Las_Islas,_Ciudad_Universitaria,_Mexico_City.jpg"
+    }
+  },
+  "Xochimilco|19.2825,-99.1053": {
+    "matched": "Lake Xochimilco",
+    "wikidata": "Q376095",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lake_Xochimilco",
+    "website": null,
+    "photo": {
+      "file": "xochimilco.jpg",
+      "matched": "Lake Xochimilco",
+      "commons_file": "En Xochimilco.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "Fer Seelbach",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:En_Xochimilco.jpg"
+    }
+  },
+  "Casa Azul (Museo Frida Kahlo)|19.3551,-99.1624": {
+    "matched": "Frida Kahlo Museum, Entrtance of the Casa Azul.jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "casa-azul-museo-frida-kahlo.jpg",
+      "matched": "Frida Kahlo Museum, Entrtance of the Casa Azul.jpg",
+      "commons_file": "Frida Kahlo Museum, Entrtance of the Casa Azul.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "Adiema12",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo_Museum,_Entrtance_of_the_Casa_Azul.jpg"
+    }
+  },
+  "Restaurant next to Casa Azul|19.3553,-99.1622": null,
+  "Bosque de Chapultepec & Chapultepec Castle|19.4204,-99.1817": {
+    "matched": "Chapultepec Castle",
+    "wikidata": "Q1072510",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chapultepec_Castle",
+    "website": "http://www.mnh.inah.gob.mx",
+    "photo": {
+      "file": "bosque-de-chapultepec-chapultepec-castle.jpg",
+      "matched": "Chapultepec Castle",
+      "commons_file": "Vista aérea del Castillo de Chapultepec 7.jpg",
+      "width": 500,
+      "height": 281,
+      "author": "Own work",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_7.jpg"
+    }
+  },
+  "Colonia Roma Food Tour meeting point (KAAJ)|19.4177,-99.1626": null,
+  "W Repostería|19.4140,-99.1720": null,
+  "El Dorado Airport, Bogotá|4.7016,-74.1469": {
+    "matched": "El Dorado International Airport",
+    "wikidata": "Q201785",
+    "wikipedia": "https://en.wikipedia.org/wiki/El_Dorado_International_Airport",
+    "website": "https://eldorado.aero/",
+    "photo": {
+      "file": "el-dorado-airport-bogota.jpg",
+      "matched": "El Dorado International Airport",
+      "commons_file": "Vista aérea Aeropuerto Internacional Eldorado Bogotá (SKBO-BOG) (8204598528).jpg",
+      "width": 500,
+      "height": 333,
+      "author": "Pablo Andrés Ortega Chávez",
+      "license": "GFDL 1.2",
+      "source": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_Aeropuerto_Internacional_Eldorado_Bogot%C3%A1_(SKBO-BOG)_(8204598528).jpg"
+    }
+  },
+  "Bogotá 100 Design Hotel by Sarasti|4.6847,-74.0469": null,
+  "Museo del Oro (Gold Museum)|4.6019,-74.0720": {
+    "matched": "Gold Museum",
+    "wikidata": "Q1109031",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gold_Museum%2C_Bogot%C3%A1",
+    "website": "http://www.banrep.gov.co/museo/eng/home.htm",
+    "photo": {
+      "file": "museo-del-oro-gold-museum.jpg",
+      "matched": "Gold Museum",
+      "commons_file": "BOG Museo del Oro.JPG",
+      "width": 500,
+      "height": 375,
+      "author": "Felipe Restrepo Acosta",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:BOG_Museo_del_Oro.JPG"
+    }
+  },
+  "Bakery near Museo del Oro|4.6015,-74.0715": null,
+  "Guatavita town|4.9589,-73.8294": {
+    "matched": "Guatavita",
+    "wikidata": "Q1576750",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guatavita",
+    "website": "http://www.guatavita-cundinamarca.gov.co/index.shtml#3",
+    "photo": {
+      "file": "guatavita-town.jpg",
+      "matched": "Guatavita",
+      "commons_file": "Guatavita - Coliseo.JPG",
+      "width": 500,
+      "height": 281,
+      "author": "Romain Bréget",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Guatavita_-_Coliseo.JPG"
+    }
+  },
+  "Laguna de Guatavita|4.9776,-73.7750": {
+    "matched": "Laguna de Guatavita - panoramio (1).jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "laguna-de-guatavita.jpg",
+      "matched": "Laguna de Guatavita - panoramio (1).jpg",
+      "commons_file": "Laguna de Guatavita - panoramio (1).jpg",
+      "width": 500,
+      "height": 375,
+      "author": "CarlosE Duarte",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Laguna_de_Guatavita_-_panoramio_(1).jpg"
+    }
+  },
+  "Zipaquirá Salt Cathedral|5.0187,-74.0099": {
+    "matched": "Zipaquirá Cathedral",
+    "wikidata": "Q5758638",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zipaquir%C3%A1_Cathedral",
+    "website": null,
+    "photo": {
+      "file": "zipaquira-salt-cathedral.jpg",
+      "matched": "Zipaquirá Cathedral",
+      "commons_file": "Centro Urbano de Zipaquirá 1.JPG",
+      "width": 500,
+      "height": 375,
+      "author": "Nelsonc",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Centro_Urbano_de_Zipaquir%C3%A1_1.JPG"
+    }
+  },
+  "Castillo Marroquín|4.8626,-74.0259": {
+    "matched": "Castillo Marroquín",
+    "wikidata": "Q8342145",
+    "wikipedia": "https://en.wikipedia.org/wiki/Castillo_Marroqu%C3%ADn",
+    "website": null,
+    "photo": {
+      "file": "castillo-marroquin.jpg",
+      "matched": "Castillo Marroquín",
+      "commons_file": "Castillomarroquínfoto.JPG",
+      "width": 500,
+      "height": 750,
+      "author": "Santiago jurado",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Castillomarroqu%C3%ADnfoto.JPG"
+    }
+  },
+  "Bogota Bike Tours (Bicycle City Tour)|4.5985,-74.0705": null,
+  "Fulanitos 95|4.6794,-74.0462": null,
+  "Usaquén Market (Mercado de las Pulgas)|4.6950,-74.0309": null,
+  "Spa des Elements|4.6766,-74.0483": null,
+  "Paloquemao Market|4.6157,-74.0841": null,
+  "Andrés DC|4.6680,-74.0537": null,
+  "Chorro de Quevedo (Walking Tour)|4.5972,-74.0710": {
+    "matched": "Chorro de Quevedo",
+    "wikidata": "Q5767278",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chorro_de_Quevedo",
+    "website": null,
+    "photo": {
+      "file": "chorro-de-quevedo-walking-tour.jpg",
+      "matched": "Chorro de Quevedo",
+      "commons_file": "Chorro quevedo.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "Frank Ballesteros",
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Chorro_quevedo.jpg"
+    }
+  },
+  "Seafood lunch, La Candelaria|4.5967,-74.0735": null,
+  "Monserrate|4.6040,-74.0554": {
+    "matched": "Monserrate",
+    "wikidata": "Q152073",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monserrate",
+    "website": null,
+    "photo": {
+      "file": "monserrate.jpg",
+      "matched": "Monserrate",
+      "commons_file": "2017 Bogotá Basílica del Señor Caído de Monserrate.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "Felipe Restrepo Acosta",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2017_Bogot%C3%A1_Bas%C3%ADlica_del_Se%C3%B1or_Ca%C3%ADdo_de_Monserrate.jpg"
+    }
+  },
+  "Museo Botero|4.5967,-74.0734": {
+    "matched": "Museo Botero",
+    "wikidata": "Q3329100",
+    "wikipedia": "https://en.wikipedia.org/wiki/Museo_Botero",
+    "website": "http://www.banrepcultural.org/museo-botero",
+    "photo": {
+      "file": "museo-botero.jpg",
+      "matched": "Museo Botero",
+      "commons_file": "Museo Botero, Boteromuseum 03.jpg",
+      "width": 500,
+      "height": 282,
+      "author": "Burkhard Mücke",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Museo_Botero,_Boteromuseum_03.jpg"
+    }
+  },
+  "Boston Logan Airport|42.3656,-71.0096": {
+    "matched": "Ceiling detail, Logan International Airport, Boston, Massachusetts, US (PPL1-Corrected) julesvernex2.jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "boston-logan-airport.jpg",
+      "matched": "Ceiling detail, Logan International Airport, Boston, Massachusetts, US (PPL1-Corrected) julesvernex2.jpg",
+      "commons_file": "Ceiling detail, Logan International Airport, Boston, Massachusetts, US (PPL1-Corrected) julesvernex2.jpg",
+      "width": 500,
+      "height": 331,
+      "author": "Jules Verne Times Two",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ceiling_detail,_Logan_International_Airport,_Boston,_Massachusetts,_US_(PPL1-Corrected)_julesvernex2.jpg"
+    }
+  },
+  "Bounce luggage storage (Delgadillo Hotel by Socialtel)|4.5962,-74.0718": null,
+  "Plaza Bolívar|4.5982,-74.0761": {
+    "matched": "Plaza de Bolívar",
+    "wikidata": "Q3090480",
+    "wikipedia": "https://en.wikipedia.org/wiki/Plaza_de_Bol%C3%ADvar",
+    "website": null,
+    "photo": {
+      "file": "plaza-bolivar.jpg",
+      "matched": "Plaza de Bolívar",
+      "commons_file": "Plaza de Bolívar en Bogotá (Colombia).jpg",
+      "width": 500,
+      "height": 234,
+      "author": "Javierleiva",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Plaza_de_Bol%C3%ADvar_en_Bogot%C3%A1_(Colombia).jpg"
+    }
+  },
+  "Contraste Coffee Lab / Varietale|4.5970,-74.0730": null,
+  "Puebla day trip|19.0414,-98.2063": null,
+  "Lucha Libre|19.4387,-99.1477": null,
+  "Museo Anahuacalli|19.3281,-99.1402": null,
+  "Museo León Trotsky|19.3550,-99.1587": {
+    "matched": "Interior de la Casa Museo de Leon Trotsky.jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "museo-leon-trotsky.jpg",
+      "matched": "Interior de la Casa Museo de Leon Trotsky.jpg",
+      "commons_file": "Interior de la Casa Museo de Leon Trotsky.jpg",
+      "width": 500,
+      "height": 667,
+      "author": "Valemvglez",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Interior_de_la_Casa_Museo_de_Leon_Trotsky.jpg"
+    }
+  },
+  "Jardín Botánico de Bogotá|4.6684,-74.0974": {
+    "matched": "Saltapared Común Sureño (Troglodytes musculus) en el Jardín Botánico de Bogotá.jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "jardin-botanico-de-bogota.jpg",
+      "matched": "Saltapared Común Sureño (Troglodytes musculus) en el Jardín Botánico de Bogotá.jpg",
+      "commons_file": "Saltapared Común Sureño (Troglodytes musculus) en el Jardín Botánico de Bogotá.jpg",
+      "width": 500,
+      "height": 332,
+      "author": "Natlycu",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Saltapared_Com%C3%BAn_Sure%C3%B1o_(Troglodytes_musculus)_en_el_Jard%C3%ADn_Bot%C3%A1nico_de_Bogot%C3%A1.jpg"
+    }
+  },
+  "Parque Simón Bolívar|4.6584,-74.0925": {
+    "matched": "Laguna del Parque Simón Bolívar - panoramio.jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "parque-simon-bolivar.jpg",
+      "matched": "Laguna del Parque Simón Bolívar - panoramio.jpg",
+      "commons_file": "Laguna del Parque Simón Bolívar - panoramio.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "alejandro110iq",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Laguna_del_Parque_Sim%C3%B3n_Bol%C3%ADvar_-_panoramio.jpg"
+    }
+  }
+}
