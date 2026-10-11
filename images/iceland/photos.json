@@ -1232,5 +1232,183 @@
   "Icelandic Lava Show|63.4185,-19.0100": null,
   "Katla Visitor Centre (Brydebúð)|63.4176,-19.0141": null,
   "Halldórskaffi|63.4178,-19.0145": null,
-  "Smiðjan Brugghús|63.4189,-19.0085": null
+  "Smiðjan Brugghús|63.4189,-19.0085": null,
+  "Katla Visitor Centre & Shipwreck Museum|63.4176,-19.0141": null,
+  "Saxhóll|64.8517,-23.9265": null,
+  "Bruarfoss Waterfall|64.2642,-20.5159": {
+    "matched": "Bruarfoss Waterfall",
+    "wikidata": "Q2557346",
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "bruarfoss-waterfall.jpg",
+      "matched": "Bruarfoss Waterfall",
+      "commons_file": "Brúarfoss (15657306391).jpg",
+      "width": 500,
+      "height": 339,
+      "author": "Milan Nykodym from Kutna Hora, Czech Republic",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Br%C3%BAarfoss_(15657306391).jpg"
+    }
+  },
+  "Foss á Síðu|63.8561,-17.8694": {
+    "matched": "Foss á Síðu",
+    "wikidata": "Q42514493",
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "foss-a-sidu.jpg",
+      "matched": "Foss á Síðu",
+      "commons_file": "Siða Foss.jpg",
+      "width": 500,
+      "height": 667,
+      "author": "Christian Bickel fingalo",
+      "license": "CC BY-SA 2.0 de",
+      "source": "https://commons.wikimedia.org/wiki/File:Si%C3%B0a_Foss.jpg"
+    }
+  },
+  "Dverghamrar|63.8494,-17.8602": {
+    "matched": "Dverghamrar",
+    "wikidata": "Q3041840",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dverghamrar",
+    "website": null,
+    "photo": {
+      "file": "dverghamrar.jpg",
+      "matched": "Dverghamrar",
+      "commons_file": "Dverghamrar.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "JD554",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dverghamrar.jpg"
+    }
+  },
+  "Svínafellsjökull|64.0084,-16.8801": {
+    "matched": "Svínafellsjökull",
+    "wikidata": "Q2142443",
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "svinafellsjokull.jpg",
+      "matched": "Svínafellsjökull",
+      "commons_file": "Svínafellsjökull.JPG",
+      "width": 500,
+      "height": 375,
+      "author": "Bromr",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sv%C3%ADnafellsj%C3%B6kull.JPG"
+    }
+  },
+  "Skógar Museum (Skógasafn)|63.5259,-19.4913": {
+    "matched": "Skógar",
+    "wikidata": "Q985810",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sk%C3%B3gar",
+    "website": null,
+    "photo": {
+      "file": "skogar-museum-skogasafn.jpg",
+      "matched": "Skógar",
+      "commons_file": "SkogarMuseumOutside.jpg",
+      "width": 500,
+      "height": 311,
+      "author": "Andreas Tille",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:SkogarMuseumOutside.jpg"
+    }
+  },
+  "Yoda Cave (Gígjagjá)|63.4169,-18.7633": {
+    "matched": "Yoda Cave.jpg",
+    "wikidata": null,
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "yoda-cave-gigjagja.jpg",
+      "matched": "Yoda Cave.jpg",
+      "commons_file": "Yoda Cave.jpg",
+      "width": 500,
+      "height": 750,
+      "author": "Eric Kilby",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Yoda_Cave.jpg"
+    }
+  },
+  "Rútshellir|63.5228,-19.5727": {
+    "matched": "Rútshellir",
+    "wikidata": "Q14293270",
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "rutshellir.jpg",
+      "matched": "Rútshellir",
+      "commons_file": "Rútshellir.JPG",
+      "width": 500,
+      "height": 667,
+      "author": "Bromr",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:R%C3%BAtshellir.JPG"
+    }
+  },
+  "Seljavallalaug|63.5661,-19.6076": {
+    "matched": "Seljavallalaug",
+    "wikidata": "Q7448515",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seljavallalaug",
+    "website": null,
+    "photo": {
+      "file": "seljavallalaug.jpg",
+      "matched": "Seljavallalaug",
+      "commons_file": "Isl Seljavallalaug framan.JPG",
+      "width": 500,
+      "height": 667,
+      "author": "Jabbi",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Isl_Seljavallalaug_framan.JPG"
+    }
+  },
+  "Steinbogafoss|63.5380,-19.5021": {
+    "matched": "Steinbogafoss",
+    "wikidata": "Q134306505",
+    "wikipedia": null,
+    "website": null,
+    "photo": {
+      "file": "steinbogafoss.jpg",
+      "matched": "Steinbogafoss Waterfall, Iceland, 20240720 1352 3059.jpg",
+      "commons_file": "Steinbogafoss Waterfall, Iceland, 20240720 1352 3059.jpg",
+      "width": 500,
+      "height": 334,
+      "author": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Steinbogafoss_Waterfall,_Iceland,_20240720_1352_3059.jpg"
+    }
+  },
+  "Rauðfeldsgjá|64.7991,-23.6480": {
+    "matched": "Rauðfeldsgjá",
+    "wikidata": "Q16424170",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rau%C3%B0feldsgj%C3%A1",
+    "website": null,
+    "photo": {
+      "file": "raudfeldsgja.jpg",
+      "matched": "Rauðfeldsgjá",
+      "commons_file": "Raudfelgljukur - Iceland - panoramio.jpg",
+      "width": 500,
+      "height": 375,
+      "author": "diego_cue",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Raudfelgljukur_-_Iceland_-_panoramio.jpg"
+    }
+  },
+  "Lóndrangar|64.7324,-23.7839": {
+    "matched": "Lóndrangar",
+    "wikidata": "Q3480544",
+    "wikipedia": "https://en.wikipedia.org/wiki/L%C3%B3ndrangar",
+    "website": null,
+    "photo": {
+      "file": "londrangar.jpg",
+      "matched": "Lóndrangar",
+      "commons_file": "Lóndrangar Mike Krüger 090513 1.jpg",
+      "width": 500,
+      "height": 354,
+      "author": "Mike Krüger",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:L%C3%B3ndrangar_Mike_Kr%C3%BCger_090513_1.jpg"
+    }
+  }
 }
